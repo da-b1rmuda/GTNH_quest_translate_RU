@@ -1,0 +1,97 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3128
+    }
+  },
+  "questIDLow:4": 3135,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Botania:corporeaSpark",
+        "Count:3": 1,
+        "Damage:2": 1,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Нормальный или магический",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Есть два разных супертоплива, а не одно. Обычное твердое супертопливо (SSF) имеет теплотворную способность 100 тыс., тогда как волшебное твердое супертопливо (MSSF) имеет теплоту 150 тыс., что на 50% больше ЕС на блок. Как вы можете догадаться, второй более ценен, и его стоит сделать, но он требует еще большей обработки, чем первый.\n\nХорошая новость в том, что вам не нужно много прогресса в Thaumcraft. Вам он почти не понадобится, если вообще понадобится, потому что есть много способов сделать Magic Fuel Binder и сам блок, в том числе те, которые не используют какие-либо предметы Thaumcraft. Вариантов так много, что этот квест не потребует конкретного, и вам снова решать, какой выбрать, если вы вообще выберете волшебное топливо. Подсказка: алюментум нельзя добывать, как алмазы, но его можно автоматизировать, бросая угольную пыль в котел, и он имеет более высокую ценность горения, чем входные данные. Кроме того, для каменноугольного кокса доступен только вариант Alumentum.\n\nПо сути, SSF состоит из трех этапов: создание связующего, создание твердого блока и создание жидкости. В MSSF есть больше шагов: создать переплет, улучшить его до волшебного переплета, создать твердый блок, создать жидкость, а затем закончить с дополнительными предметами. Выбери собственный путь."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.02",
+          "Count:3": 64,
+          "Damage:2": 32270,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.02",
+          "Count:3": 64,
+          "Damage:2": 32271,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.02",
+          "Count:3": 16,
+          "Damage:2": 32270,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianIII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 7,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

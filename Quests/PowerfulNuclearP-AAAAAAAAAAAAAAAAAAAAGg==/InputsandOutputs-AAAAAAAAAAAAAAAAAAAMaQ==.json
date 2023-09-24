@@ -1,0 +1,90 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3159
+    }
+  },
+  "questIDLow:4": 3177,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metaitem.01",
+        "Count:3": 1,
+        "Damage:2": 30014,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Входы и выходы в LFTR",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Предполагая, что у вас есть и LFTR, и топливный завод, а также ресурсы для топлива, доступного для использования, вы можете включить реактор и оставить его работать. Первое топливо, которое вы сможете использовать, будет работать с 4 энергетическими динамо-машинами IV и выдавать 4 ампера IV, пока работает реактор, и каждый цикл длится 100 секунд (вы можете увидеть рецепты на NEI, там есть вкладка, посвященная трем видам топлива). LFTR могут работать и что вы от них получаете).\n\nА как насчет всего остального? Вся установка имеет 2 входа и 4 выхода. Одним из входов является любое из трех возможных видов топлива, другим входом — тетрафторбериллат лития (LTFB). Что касается выхода, есть одна константа: U233 выводится в небольших количествах случайным образом, в среднем по 10 секунд на выход. Есть еще два продукта, U Salt и UF6, которые происходят из каждого топлива, хотя более качественные виды топлива производят их больше за цикл. Наконец, можно получить соль T или соль TB: первую из первого топлива, а вторую из двух других, при этом TB более ценен, чем T. Все они предназначены для обработки, чтобы получить лучшее топливо LFTR, и также полезные побочные продукты размножения.\n\nНачиная с первого топлива, на каждое ведро потребуется 2 ведра LTFB, продолжительность работы 1000 секунд и общая выработка 655 536 000 EU при 32 768 EU/t. После этого у вас будет в среднем 367 л U233, 250 л соли U, 500 л соли T и 5 л UF6. Как видите, это медленная горелка, и одно ведро каждой из этих жидкостей стоит очень дорого!"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "miscutils:itemCellUraniumDepletedMoltenSaltUSalt",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "miscutils:itemCellThoriumDepletedMoltenSaltTSalt",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "miscutils:itemCellUraniumHexafluoride",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "miscutils:itemDustUranium233",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "miscutils:itemCellUraniumDepletedMoltenSaltUSalt",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

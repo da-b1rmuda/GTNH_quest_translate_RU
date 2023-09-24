@@ -1,0 +1,79 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3114
+    }
+  },
+  "questIDLow:4": 3115,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metaitem.01",
+        "Count:3": 1,
+        "Damage:2": 30672,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "уксус в ацетон",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Из древесного уксуса одним из полезных продуктов, которые вы можете получить, является ацетон. Его не очень легко изготовить: нужна кальциевая пыль и уксусная кислота, для которых нужен метанол или водород... вместо всего этого вы можете получить это прямо здесь, вместе с некоторыми другими химическими веществами в этом генеалогическом древе.\n\nХотя для чего это нужно? Все просто: эпоксидная смола, дизельное топливо с повышенным цетановым числом, сырой бензин и, возможно, какой-нибудь перспективный клей. Хочу это? Берите, наверняка пригодится."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 64,
+          "Damage:2": 30672,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinChemistII",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {}
+    }
+  }
+}

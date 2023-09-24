@@ -1,0 +1,144 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 160
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3102
+    }
+  },
+  "questIDLow:4": 3107,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:fish",
+        "Count:3": 1,
+        "Damage:2": 3,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "OR",
+      "repeat_relative:1": 1,
+"name:8": "Самый мощный биодизель",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Если вы раньше работали с возобновляемыми дизельными двигателями, возможно, вам захочется их модернизировать. Вместо того, чтобы просто дублировать существующую установку, вы можете модернизировать биодизель до дизельного топлива с повышенным цетановым числом (CBD) со специальной добавкой под названием тетранитрометан (TNM). Вы получите больше отдачи от вложенных средств, если перейдете на это топливо, вместо того, чтобы просто производить больше биодизельного топлива, поскольку в нем в 3 раза больше ЕС на ведро, а TNM необходим в небольших количествах. Однако, прежде чем вы начнете работать над новой установкой, важно увеличить количество производимого вами семян/рыбьего жира и, в свою очередь, продуктов, которые превращаются в эти масла.\n\nКак и раньше, вы можете использовать культуры IC2, обычные культуры/деревья или рыбалку. Для культур IC2 вы можете использовать Multifarm, установленный в режим культуры IC2, для которого требуются урановые электронные трубки с высоким напряжением, но автоматизировать более 1000 культур, при этом очень экономно расходуя электроэнергию и удобрения, или HV Crop Manager. Для обычных культур/деревьев используйте Farming Station EnderIO, также разблокированную в HV. Для рыбалки у вас нет новых инструментов, вы можете только добавить больше Fish Catchers или использовать культуры Goldfish IC2, если вы ориентируетесь таким образом.\n\nЧтобы выполнить этот квест, создайте мультиферму, фермерскую станцию \u200b\u200bили несколько рыболовов."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Forestry:ffarm",
+          "Count:3": 36,
+          "tag:10": {
+            "FarmBlock:3": 0
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "EnderIO:blockFarmStation",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "miscutils:blockFishTrap",
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "3:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 3,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 513,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinChemistII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "minecraft:fish",
+          "Count:3": 1,
+          "Damage:2": 3,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

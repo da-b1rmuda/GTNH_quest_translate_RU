@@ -1,0 +1,145 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 578
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 581
+    }
+  },
+  "questIDLow:4": 582,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Forestry:ffarm",
+        "Count:3": 1,
+        "tag:10": {
+          "FarmBlock:4": 0
+        },
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Мультиферма",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Самая маленькая ферма, которую вы можете построить, требует 36 блоков фермы (3x4x3 — самая большая — 5x4x5 или 100 блоков фермы). Поместите базовые блоки, соответствующие типу фермы, которую вы построили. В данном случае каменные кирпичи. Вы можете разместить эти блоки рядом или под мультиструктурой, но не на слое выше. Он будет искать на 6 блоков выше земли грязь/сельхозугодья/песок/песок/перегной в зависимости от типа фермы, а также соответствующие культуры, саженцы и т. д.\n\nВы можете использовать разные режимы для сбора разных культур. Дендрарий для деревьев, адский для бородавок и так далее. Вы даже можете смешивать и сочетать режимы на одной и той же ферме — например, частично вырубать деревья ради древесины и собирать фрукты с деревьев, не уничтожая их, например, на другой. По крайней мере, пока они по разные стороны.\n\n§YВозможно, вам придется немного поэкспериментировать, чтобы увидеть, что работает, но §1§n[url]https://ftbwiki.org/MultiFarm"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:stonebrick",
+          "Count:3": 9,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.02",
+          "Count:3": 36,
+          "Damage:2": 18035,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 36,
+          "Damage:2": 27305,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "Forestry:thermionicTubes",
+          "Count:3": 9,
+          "Damage:2": 10,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Forestry:ffarm",
+          "Count:3": 36,
+          "tag:10": {
+            "FarmBlock:4": 0
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 9,
+          "Damage:2": 11305,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 9,
+          "Damage:2": 11035,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnician",
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinFarmer",
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "dreamcraft:item.CoinForestry",
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

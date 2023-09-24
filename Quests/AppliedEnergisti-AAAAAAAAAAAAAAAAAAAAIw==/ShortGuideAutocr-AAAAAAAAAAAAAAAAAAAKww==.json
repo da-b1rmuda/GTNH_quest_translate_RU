@@ -1,0 +1,120 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1312
+    }
+  },
+  "questIDLow:4": 2755,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "appliedenergistics2:tile.BlockCraftingStorage",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Краткое руководство — Автокрафт",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Это основная цель AE2, так что давайте перейдем к ней. Подключите хранилище для крафта и молекулярный ассемблер, подключите терминал шаблонов к кабелю и подключите интерфейс ME к MA (убедитесь, что на него подается питание с другой стороны). Вы можете запустить его без ME-интерфейса, но тогда вы сможете выполнить только один рецепт. Поместите пустой шаблон в терминал шаблонов и добавьте рецепт для верстака, затем щелкните стрелку, чтобы сохранить его в шаблоне. Поместите это в интерфейс ME, и теперь вы можете запросить создание этого предмета. (если предметы есть в сети, иначе явно выйдет из строя)\n\nДля обработки выкроек (станков, чего-либо кроме обычной поделки 3х3) нажмите кнопку справа. Вам нужно будет указать все операции ввода-вывода самостоятельно. Вы можете использовать это в интерфейсе ME на печи (например) в сочетании с шиной импорта ME для сбора результатов. Если это машина, которая автоматически извлекает данные (например, мульти), вы можете использовать интерфейс ME, чтобы собирать результаты намного быстрее (и с меньшей задержкой)."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "appliedenergistics2:tile.BlockCraftingStorage",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "appliedenergistics2:tile.BlockMolecularAssembler",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "appliedenergistics2:item.ItemMultiPart",
+          "Count:3": 1,
+          "Damage:2": 340,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "appliedenergistics2:item.ItemMultiPart",
+          "Count:3": 1,
+          "Damage:2": 440,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial",
+          "Count:3": 1,
+          "Damage:2": 52,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "minecraft:flint",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "6:10": {
+          "id:8": "minecraft:log",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "appliedenergistics2:item.ItemMultiPart",
+          "Count:3": 1,
+          "Damage:2": 440,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial",
+          "Count:3": 1,
+          "Damage:2": 52,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "appliedenergistics2:item.ItemMultiPart",
+          "Count:3": 1,
+          "Damage:2": 240,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

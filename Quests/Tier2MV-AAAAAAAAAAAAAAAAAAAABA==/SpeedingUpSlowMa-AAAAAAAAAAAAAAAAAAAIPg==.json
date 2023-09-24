@@ -1,0 +1,96 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 897
+    }
+  },
+  "questIDLow:4": 2110,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 11101,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§6§lУскорение медленных машин",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Многие моды не имеют методов ускорения своих медленных машин. Для этого вам понадобится акселератор GregTech World Accelerator. Однако он потребляет усилители, поэтому вашей энергетической инфраструктуре лучше быть к этому готовым. Во всплывающей подсказке будет указано повышение производительности. Для ускорения на основе блоков WA будет обрабатывать область вокруг себя. Для TileEntities, как и для большинства машин, он будет ускорять только блоки, непосредственно касающиеся WA, и их необходимо будет перенастроить с помощью отвертки. Однако при этом потребляется вдвое больше энергии.\n\n§4Это не работает с машинами GregTech!§r Для них создайте больше машин или машин более высокого уровня.\n\nЕсли вы хотите, вы можете изменить уровень ускорения, используя гаечный ключ. Он вернется к минимуму, а затем увеличится на один уровень при каждом использовании. Он будет использовать мощность (и ускорение) этого уровня, увеличиваясь в соответствии со стандартом GT: скорость (ускорение) в 2 раза и скорость EU в 4 раза за уровень."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 11101,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 64,
+          "Damage:2": 30709,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 64,
+          "Damage:2": 30742,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:cake",
+          "Count:3": 1,
+          "tag:10": {
+            "display:10": {
+              "Lore:9": {
+                "0:8": "Not everything can be fast..."
+              },
+              "Name:8": "Lemon Cake"
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

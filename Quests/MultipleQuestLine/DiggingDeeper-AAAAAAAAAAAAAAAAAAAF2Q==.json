@@ -1,0 +1,51 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1496
+    }
+  },
+  "questIDLow:4": 1497,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:gold_ore",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§2§l Копаем глубже",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Теперь, когда вы знаете, что такое кусок руды, копайте до коренной породы, чтобы найти, есть ли в нем жила.\n\nПроверьте руду в NEI, чтобы узнать, где можно найти жилу, содержащую ее. Найдите его и нажмите на него, чтобы получить, среди прочего, эту информацию.\n\nСуществует много типов руд, даже для получения одного материала, такого как железо, поэтому не ограничивайтесь одной рудой.\n\nМелкие руды также можно поискать в НЭИ, но не все они используются."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "amount:3": 1,
+      "rewardID:8": "bq_standard:xp",
+      "isLevels:1": 1,
+      "index:3": 0
+    }
+  }
+}

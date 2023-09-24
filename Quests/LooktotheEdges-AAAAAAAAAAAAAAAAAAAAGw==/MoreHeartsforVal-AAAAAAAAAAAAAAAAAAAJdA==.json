@@ -1,0 +1,87 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2419
+    }
+  },
+  "questIDLow:4": 2420,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "witchery:devilstonguecharm",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Еще сердечки на День святого Валентина",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Если вы хотите получить больше сердец, вы можете попробовать торговать с Демоном, но они скорее будут стрелять в вас огненными шарами, чем торговать. Если только у вас нет этого предмета! Сначала сделайте Амулет Полинезии, который позволит вам торговать с животными (вероятно, оно того не стоит в этом наборе), затем используйте сердце демона, чтобы сделать Амулет Языка Дьявола. Благодаря этому они не только с меньшей вероятностью нападут, но и продадут сердца своих собратьев немного дешевле.\n\nПросто помните, что его можно использовать только ограниченное количество раз, хорошо? Возможно, также стоит использовать Обряд Защиты одновременно с вызовом демона. Для этого просто положите оба круга и выполните требования к предметам (и силе алтаря) для обоих. Если вы не планируете убивать демона, вам, вероятно, следует отправить его обратно, когда вы закончите «Обряд изгнания» на странице 47/48 книги «Магия круга»."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "witchery:devilstonguecharm",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 53,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "minecraft:gold_ingot",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinWitchII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

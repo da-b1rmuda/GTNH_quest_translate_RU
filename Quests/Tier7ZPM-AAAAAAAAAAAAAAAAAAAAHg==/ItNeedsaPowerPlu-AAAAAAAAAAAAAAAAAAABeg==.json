@@ -1,0 +1,44 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 375
+    }
+  },
+  "questIDLow:4": 378,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "AWWayofTime:demonBloodShard",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Ему нужна вилка питания...",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Учитывая тот факт, что я смогу изготовить это устройство, для подачи питания ему потребуется какая-то «вилка». Мне нужно что-то, чтобы проводить огромное количество энергии. Я думал о сверхпроводниках, но они не подходят под тот материал корпуса кристалла, который я имею в виду. Мне нужны 2 разных кристалла: один для положительного и один для отрицательного заряда."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

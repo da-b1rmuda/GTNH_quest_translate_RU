@@ -1,0 +1,92 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1292
+    }
+  },
+  "questIDLow:4": 2538,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "appliedenergistics2:item.ToolPortableCell",
+        "Count:3": 1,
+        "tag:10": {
+          "internalMaxPower:6": 200000.0,
+          "internalCurrentPower:6": 200000.0
+        },
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Портативное цифровое хранилище",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Они именно такие, как звучат.\n\nПервый предназначен для предметов и действует как терминал. Он может вместить 4032 одного предмета.\n\nВторой предназначен для жидкостей и действует как терминал для жидкости. Он может вместить 128 ведер одной жидкости.\n\nЧтобы вставлять вещи, вынимать их или открывать интерфейс, требуется AE. Используйте беспроводное зарядное устройство от EIO, если не хотите, чтобы оно работало вечно."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "appliedenergistics2:item.ToolPortableCell",
+          "Count:3": 1,
+          "tag:10": {},
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "ae2fc:portable_fluid_cell",
+          "Count:3": 1,
+          "tag:10": {},
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 37,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

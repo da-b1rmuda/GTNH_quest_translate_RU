@@ -1,0 +1,133 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 860
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1245
+    }
+  },
+  "questIDLow:4": 1481,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 2105,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Что это было? Я не слышу тебя из-за двигателя!",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Экстремальный двигатель внутреннего сгорания — это модернизация большого двигателя внутреннего сгорания, версии IV, для которой требуется вольфрамовая сталь вместо титана. Структура по существу одинакова, и соотношение этих двух материалов почти 1:1, так что это хороший генератор, если вы накопили несколько стопок вольфрамовой стали.\n\nПредостережение заключается в том, что он принимает только высокооктановый бензин. Это последний и самый мощный тип горючей жидкости, изготовленной из нефти, и у него самая длинная технологическая линия из всех. В качестве награды он получает отличные §e§b§a2,5 млн ЕС за ведро§a§r, и вы можете сжечь его здесь вместе с небольшим количеством жидкого кислорода почти за §a4 IV ампер за тик.\n\n§cЖидкий кислород очень важен, потому что он значительно повышает скорость мультива, а также топливную экономичность. §f§rЕму требуется 40 л/с, поэтому для непрерывного снабжения его потребуется более одного вакуумного морозильника: для постоянно работающего ECE вам понадобится двойной вакуумный морозильник: 1 EV и 1 HV. Вы можете использовать меньше морозильников, если разгоните их, если ECE не работает постоянно или если вы перейдете на криогенную морозильную камеру,"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockcasings8",
+          "Count:3": 8,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockcasings2",
+          "Count:3": 2,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.blockcasings4",
+          "Count:3": 19,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 90,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 2105,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 24,
+          "Damage:2": 11316,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 3,
+          "Damage:2": 8,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 64,
+          "Damage:2": 30998,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianII",
+          "Count:3": 20,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

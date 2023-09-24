@@ -1,0 +1,57 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1989
+    }
+  },
+  "questIDLow:4": 2019,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "StevesFactoryManager:BlockMachineManagerName",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Основы УЛМ",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Переменные — объявление и стандарт\nДекларация — это просто создание переменной с подходящими блоками. Это позволяет легко обновлять рабочие процессы. Например, у вас может быть переменная, содержащая 2 сундука. Вы используете его в каждом цикле, а затем добавляете еще один сундук. Просто обновите переменную, и цикл foreach начнет ее использовать.\n\nСтандартные переменные можно вставлять в середину рабочего процесса (у него есть ввод/вывод) и, таким образом, их можно изменять в процессе работы.\n\nОбратите внимание, что для каждого цикла потребуется пустая переменная для работы. В цикле он указан как «Элемент».\n\nГлобальный или локальный\nGlobal сохранит изменения в переменной, выполненные в рабочем процессе, тогда как local сохранит все, что было сделано локально для этой части рабочего процесса."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "StevesFactoryManager:BlockMachineManagerName",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

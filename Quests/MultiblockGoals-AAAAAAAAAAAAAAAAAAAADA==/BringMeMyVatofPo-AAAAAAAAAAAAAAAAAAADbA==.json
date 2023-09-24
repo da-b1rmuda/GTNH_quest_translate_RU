@@ -1,0 +1,131 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 160
+    }
+  },
+  "questIDLow:4": 876,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 1169,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§6§lПринесите мне мой чан с полиэтиленом!",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Устали использовать маленькие ячейки для обработки химикатов? Постройте большой химический реактор, и вы сможете просто подавать и выпускать жидкости. Или используйте великолепные большие жидкостные ячейки для подачи и удаления жидкостей из люков.\n\nБудьте осторожны, если выходные люки полны, из реактора вылетят лишние продукты!\n\nНекоторые из старых рецептов теперь можно гораздо проще выполнить в LCR, используя схему 24, пропуская один или несколько шагов.\n\nLCR также считается чистым помещением для любых рецептов чистых помещений.\n\nВам также понадобится:\n1 люк для обслуживания\n1 энергетический люк\n0 Входная шина (если в рецепте есть входной элемент. Для полной автоматизации вам, вероятно, следует использовать 1 для каждого материала)\nВыходная шина 0-1 (если рецепт имеет вывод элемента)\n2 входных люка (используйте по 1 для каждой жидкости)\n1 выходной люк (как указано выше)\n\nВы можете использовать отвертку на выходном люке, чтобы переключать его режимы. Используйте Shift-правый щелчок, чтобы перейти непосредственно к конкретному режиму жидкости, а затем заблокируйте жидкость с помощью ячейки для упрощения автоматизации. Это работает не только с LCR."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 1169,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockcasings8",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockcasings5",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.blockcasings8",
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 16,
+          "Damage:2": 5683,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 16,
+          "Damage:2": 32408,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "lvl:4": 3,
+                "id:4": 35
+              }
+            }
+          },
+          "Damage:2": 6,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

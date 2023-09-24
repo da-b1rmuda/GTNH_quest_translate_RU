@@ -1,0 +1,88 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2060
+    }
+  },
+  "questIDLow:4": 2063,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Automagy:blockThaumostaticSpire",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Доставка электроэнергии на большие расстояния",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Ни один маг не хочет ограничиваться коротким временем полета. С помощью этого шпиля из дисциплины «Автомагия» вы можете передавать магическую энергию прямо в свое летное снаряжение. Чтобы получить правильный блок таумиума, сожмите 9 слитков, чтобы получить блок таумиума GT, а затем вырежьте этот блок, чтобы получить правильный тип.\n\nДля работы этого мультиблока требуется Centi-Vis. Вы можете использовать от 2 до 6 таумостатических пилонов, а дополнительные пилоны расширяют дальность действия. Обеспечьте работу конструкции Aer Centi-vis, и она примет Potentia essentia для передачи на флаеры. Конструкция также будет принимать эссенции Aer и Volatus для увеличения дальности и скорости передачи соответственно. Щелкните правой кнопкой мыши по сторонам контроллера, чтобы выбрать, какой тип эссенции будет принимать каждая сторона."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Automagy:blockThaumostaticPylon",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Automagy:blockThaumostaticPylon",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "minecraft:quartz_block",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "Thaumcraft:blockCosmeticSolid",
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

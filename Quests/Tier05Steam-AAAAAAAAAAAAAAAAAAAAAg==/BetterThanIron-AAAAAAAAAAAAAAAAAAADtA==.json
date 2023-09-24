@@ -1,0 +1,148 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 65
+    }
+  },
+  "questIDLow:4": 948,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metaitem.01",
+        "Count:3": 1,
+        "Damage:2": 11304,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§3§lЛучше железа",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Но не так хорошо, как сталь. В основном он используется в корпусах машин или в инструментах, если вы не хотите использовать для этого сталь.\n\nЧтобы сделать кованое железо, вам понадобится плавильная печь для ремесленников, чтобы расплавить несколько железных слитков и отлить самородки; или используйте слиток и пилу, чтобы получить самородки. Теперь поместите их в печь, чтобы получить самородки из кованого железа. С помощью компрессора вы можете спрессовать самородки в слитки.\n\n§3Подсказка: измельченную или очищенную железную руду (не смешанную версию, такую \u200b\u200bкак пирит, ищите железную руду в жилах халькопирита) можно напрямую переплавить в железные самородки. Или вы можете использовать плавильный завод, чтобы превращать железные слитки в самородки быстрее, чем плавильный завод. Вы также можете использовать пилу, чтобы разрезать железные слитки на самородки.\n\nПозже вы можете использовать дуговую печь для непосредственного изготовления слитков кованого железа."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 63,
+          "Damage:2": 9032,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 63,
+          "Damage:2": 9304,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 7,
+          "Damage:2": 11304,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "lvl:2": 2,
+                "id:2": 16
+              }
+            },
+            "GT.ToolStats:10": {
+              "PrimaryMaterial:8": "WroughtIron",
+              "MaxDamage:4": 38400,
+              "SecondaryMaterial:8": "Wood"
+            }
+          },
+          "Damage:2": 12,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "GT.ToolStats:10": {
+              "PrimaryMaterial:8": "WroughtIron",
+              "MaxDamage:4": 38400,
+              "SecondaryMaterial:8": "WroughtIron"
+            }
+          },
+          "Damage:2": 16,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.metaitem.02",
+          "Count:3": 1,
+          "Damage:2": 32243,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnician",
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

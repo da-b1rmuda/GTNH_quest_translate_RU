@@ -1,0 +1,102 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2122
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2397
+    }
+  },
+  "questIDLow:4": 2772,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "miscutils:blockPestKiller",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "ПРОЙДИТЕ, ЛАГ! А еще летучие мыши",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Задержка \u003d в данном случае бабочки, так как им нравится накапливаться за пределами диапазона загрузки кусков. Кроме того, они раздражают, поскольку превращают обычные деревья в более лесные, по одному блоку листьев за раз. Это приводит к появлению большего количества педерастов. К счастью, используемые нами настройки предотвращают одновременное присутствие слишком большого количества элементов, но, тем не менее, они раздражают.\n\nРешение этой проблемы — убить их. А еще летучие мыши. Глупый варп Таумкрафта. Для этого используйте (потенциально незаконченный) Убийцу вредителей.\n\nПримечания: у цианида водорода теперь есть рецепт. И для него, и для формальдегида требуется химический завод. Однако, похоже, формальдегид не используется. Диапазон, очевидно, составляет 5х5 кусков, а не блоков. Он также запускается только раз в 30 секунд или около того?\n\n§3PS: Если у вас возникли проблемы с его использованием (больше, чем уже упоминалось), поднимите заявку на github."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "miscutils:blockPestKiller",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "miscutils:Formaldehyde",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "witchery:ingredient",
+          "Count:3": 8,
+          "Damage:2": 24,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "miscutils:Formaldehyde",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinSurvivorII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinBeesII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3186
+    }
+  },
+  "questIDLow:4": 3187,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "universalsingularities:universal.draconicEvolution.singularity",
+        "Count:3": 1,
+        "Damage:2": 1,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Два миллиона турбин",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Надеюсь, не более горстки. Цель здесь состоит в том, чтобы каждый из них производил около 2 миллионов ЕС/т.\n\nКак туда добраться? Посмотрите на рецепт UV Dynamo Hatch, и у вас появится новая цель. Когда вы приедете туда, каждая турбина, оснащенная этим впечатляющим блоком, сможет выдавать до 2 097 152 ЕС/т, что снова откроет перед вами новые возможности турбин. Вот некоторые хорошие варианты на этом этапе:\n\nКрупный космический нейтроний 220% 1 330 560 ЕС/т\nБольшой пробужденный драконий 190% 478 800 ЕС/т\nКрупный триниум 180% 1 452 520 ЕС/т\n\nНа этом этапе вы можете рассмотреть возможность строительства большего количества термоядерных реакторов t1 для обработки других материалов. Даже если вы остановите реактор, который используете для генерации этой плазмы, затраты ЕС на его перезапуск составят менее 1 ведра плазмы, так что, вероятно, это не такая уж большая проблема.\n\nСделайте обычное или буферизованное УФ-динамо, чтобы выполнить квест."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 38,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 907,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

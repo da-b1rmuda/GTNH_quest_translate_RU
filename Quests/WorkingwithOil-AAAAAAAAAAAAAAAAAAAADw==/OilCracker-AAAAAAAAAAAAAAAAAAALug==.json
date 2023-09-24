@@ -1,0 +1,92 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3001
+    }
+  },
+  "questIDLow:4": 3002,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 1160,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Нефтяной Крекер",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Еще один HV multi и еще одна мойка из нержавеющей стали. Мало того, для работы ему нужно 16 катушек! Во вкладке «Цели мультиблока», как обычно, есть квест про этот мульти.\n\nНесмотря на то, что это дорого, это важный мультиблок для строительства. Он выполняет рецепты крекинга, как химический реактор, и у вас может даже возникнуть соблазн сделать для этой цели LCR, поскольку он дешев и может выполнять множество рецептов одновременно, но крекер для масла гораздо более эффективен и дает несколько бонусов при использовании. (проверьте подсказку для получения дополнительной информации). В нынешнем виде это более высокие первоначальные вложения, которые в конечном итоге окупятся во много раз, а в этом пакете все занимает много времени, так что действуйте!"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 1160,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockcasings4",
+          "Count:3": 20,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockcasings5",
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianII",
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

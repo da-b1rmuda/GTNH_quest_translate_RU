@@ -1,0 +1,88 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 931
+    }
+  },
+  "questIDLow:4": 1279,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metaitem.01",
+        "Count:3": 1,
+        "Damage:2": 2347,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§6§lОгненная руда/пыль",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Руда Firestone используется для изготовления некоторых машин BC, таких как наполнитель, и некоторых других вещей. К сожалению, оно находится в преисподней... на дне океана лавы!\n\nВот несколько советов, как его найти:\n\n-Огненный камень появляется только в глубокой лаве, глубиной не менее 6. Он заменит только Netherrack, так что во фьорде, наполненном душами, их не будет. Можете ли вы придумать способы проверить глубину лавы и что там внизу?\n- Альтернативно, если вы держите голову на нужной высоте над лавой и под правильным углом, вы сможете видеть под ней — наверняка там должен быть зависающий реактивный ранец?\n-...или просто найдите биом, когда курсор находится над картой JM. Ад — это вариант по умолчанию, в котором есть Netherrack.\n\nFirestone можно добывать с помощью майнеров GT, если разместить их в горизонтальном диапазоне. Руда и продукты из огнекамня могут вызвать случайные пожары поблизости, так что поторопитесь положить их в рюкзак!"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 2347,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 16,
+          "Damage:2": 2347,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnician",
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

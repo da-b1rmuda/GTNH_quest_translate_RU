@@ -1,0 +1,91 @@
+{
+  "questIDHigh:4": 6427254672927180793,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -1374117030725596391,
+      "questIDLow:4": -7003067506139187002
+    }
+  },
+  "questIDLow:4": -6502072158014938432,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "OR",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "LogisticsPipes:item.PipeFluidExtractor",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Вставка жидкостей",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Иногда заливаешь жидкость в систему. Вам нужно что-то, чтобы доставить жидкость в правильный буфер, кроме ручной вставки жидкости в буфер.\n\nЕсть две трубы, которые могут выполнять эту работу: перекачивать жидкость в резервуар, соединенный с основной трубой для жидкости, предназначенной для этой жидкости.\n\n1. Труба для извлечения логистической жидкости. Он извлекает жидкость из подключенного буфера в нужный большой резервуар для хранения. Для этого не требуется насос, но он работает медленнее.\n\n2. Труба для подачи логистической жидкости. Он не забирает жидкости из резервуаров активно, поэтому, если вы используете резервуары GT, требуется насос GT, но он может перекачивать жидкости быстрее.\n\nВыбирайте :)"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "LogisticsPipes:item.PipeFluidExtractor",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "LogisticsPipes:item.PipeFluidInsertion",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

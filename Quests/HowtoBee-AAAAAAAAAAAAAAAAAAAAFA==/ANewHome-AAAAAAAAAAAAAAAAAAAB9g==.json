@@ -1,0 +1,88 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1112
+    }
+  },
+  "questIDLow:4": 502,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Forestry:apiculture",
+        "Count:3": 1,
+        "Damage:2": 2,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Новый дом",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Теперь, когда вы разрушили жилища бедных пчел, вам следует построить им новый. Скромный пчелиный домик не позволит вашим пчелам мутировать в новые виды. Но для лучшего содержания гребни вам все равно понадобятся. Скорость производства не так уж и плоха, но ее нельзя автоматизировать.\n\nОдин совет: поставьте несколько саженцев ванили возле пчелиных домиков. Пчелиные домики естественным образом повышают опыление в 3 раза по сравнению с лучшим жильем. Пчелы опылят их, и, возможно, вам повезет, и вы начнете скрещивать деревья в лесном хозяйстве. Придерживайтесь дубов и берез, они дадут вам хорошее сочетание стартовых лесных деревьев.\n\nКонечно, если вы сделаете это, не приняв мер предосторожности, вас могут окружить медлительные бабочки...\n\nВы также можете заметить, что пчелы с цветком «цветочного» типа разбрасывают цветы. Это можно использовать, например, для получения лаванды. Если вам не нравится, что они разбрасывают их повсюду, замените блоки грязи/травы, удалите признак или уменьшите скорость/территорию опыления."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Forestry:apiculture",
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 25,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Forestry:beeCombs",
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinBees",
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

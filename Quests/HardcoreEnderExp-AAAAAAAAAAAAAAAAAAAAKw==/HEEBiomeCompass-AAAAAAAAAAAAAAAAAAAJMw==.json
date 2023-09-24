@@ -1,0 +1,161 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2349
+    }
+  },
+  "questIDLow:4": 2355,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "HardcoreEnderExpansion:biome_compass",
+        "Count:3": 1,
+        "tag:10": {
+          "seed2:2": 1,
+          "seed1:4": -1998693544439574972,
+          "curBiome:1": 1
+        },
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "HEE Биомный компас",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Биомный компас — это особый тип компаса, который указывает на ближайшие острова биома, пока он существует и игрок находится в Конце. Щелчок правой кнопкой мыши позволит просмотреть все существующие биомы.\n\nУдерживая компас, вы увидите все биомы выбранного типа в виде маркеров на экране. Маркеры представляют собой небольшие прямоугольники цвета выбранного биома, прямоугольники также становятся больше по мере приближения к острову (они также исчезают, если вы достигаете острова, и появляются снова, когда вы покидаете его)."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "HardcoreEnderExpansion:end_powder",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 2,
+          "Damage:2": 28770,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 17770,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 2,
+          "Damage:2": 27770,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 26770,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 26308,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "HardcoreEnderExpansion:biome_compass",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "HardcoreEnderExpansion:endium_ore",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 57,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinSmithII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "dreamcraft:item.CoinAdventureII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "HardcoreEnderExpansion:knowledge_note",
+          "Count:3": 1,
+          "tag:10": {
+            "pts:1": 30
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 608
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 598
+    }
+  },
+  "questIDLow:4": 609,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metaitem.01",
+        "Count:3": 1,
+        "Damage:2": 32500,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§5§lАккумуляторный сплав",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Смешав сурьму и свинец в плавильне, вы получите аккумуляторный сплав. Объедините его с оловянным кабелем и вуаля, вот вам и небольшой аккумуляторный корпус.\n\nМалый \u003d НН, Средний \u003d СН, Большой \u003d ВН. После этого становится еще страннее.\n\nОбратите внимание: если вы делаете аккумуляторный сплав в миксере, вам нужно использовать пыль, но если вы используете плавильную печь для сплавов, вы можете использовать и то, и другое.\n\nПосетите вкладку квеста «Хранение и преобразование ЕС», чтобы узнать все подробности о хранении энергии ЕС."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 10,
+          "Damage:2": 17315,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 5,
+          "Damage:2": 1246,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 5,
+          "Damage:2": 32500,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 16,
+          "Damage:2": 826,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 16,
+          "Damage:2": 933,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 16,
+          "Damage:2": 907,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.blockores",
+          "Count:3": 16,
+          "Damage:2": 839,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinChemistI",
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianI",
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1123
+    }
+  },
+  "questIDLow:4": 2093,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ExtraBees:alveary",
+        "Count:3": 1,
+        "Damage:2": 4,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Стимуляция в день не дает доктору уснуть",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Электрический стимулятор поддерживает печатные платы, вмещающие 4 электронные лампы, и выполняет множество функций. Все цифры указаны в процентах:\n\nЖелезный инопланетянин — Производство: 150 (макс. 500)\nДиамантин ET — Производство: 250 (макс. 1000)\nАпатин ET - Опыление: 150 (макс. 500)\nОбсидиановый инопланетянин — Продолжительность жизни: 80 (мин 20)\nLapis ET — Продолжительность жизни: 150 (макс. 500)\nBlazing ET — имитирует адскую температуру.\nЗолотой инопланетянин — Частота мутаций: 150 (макс. 500)\nTin ET - Территория: 40 (мин 10) Производство: 90 (мин 50)\nБронзовый ET — Территория: 150 (макс. 500)\n\nГенетический распад также увеличивается на 50% для всех из них. Это влияет на то, как долго неблагородные пчелы вымрут, поэтому не беспокойтесь об этом, если ваши пчелы нетронуты."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ExtraBees:alveary",
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Forestry:thermionicTubes",
+          "Count:3": 8,
+          "Damage:2": 3,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 26,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

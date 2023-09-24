@@ -1,0 +1,144 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 582
+    }
+  },
+  "questIDLow:4": 592,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Forestry:ffarm",
+        "Count:3": 1,
+        "tag:10": {
+          "FarmBlock:4": 0
+        },
+        "Damage:2": 2,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Мультиферма: Коробка передач",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Чтобы обеспечить питание вашей фермы и автоматически собирать урожай, вам понадобится хотя бы один фермерский редуктор для подачи энергии. Вы можете использовать РФ или ЕС. Если вы используете ЕС, обязательно используйте кабель, позволяющий выполнить преобразование. Работу на ферме можно ускорить с помощью дополнительных коробок передач.\n\nТестирование показало, что разделение усилителей на 4 коробки передач (4 А ULV) работает лучше, чем подача 1 А НН на 4 коробки передач.\n\nФерме IC2 Crop максимального размера (5x4x5), использующей все возможное пространство с семенами с максимальными характеристиками (31/31/0) при быстром урожае, требуется всего 6 А ULV, чтобы не отставать.\n\nТочно так же небольшая ферма максимального размера (3x4x3), использующая все возможное пространство с семенами с максимальными статами (31/31/0) на высоком уровне и умеренной скорости урожая, требует только 4A ULV.\n\nПередача большей мощности на ту же коробку передач не работает. Если он может достичь максимальной радиочастотной мощности, но ваша ферма не справляется с этим, подача большей мощности не поможет, поэтому добавьте больше редукторов.\n\nКроме того, вы теряете 2 EU от устройства, излучающего энергию, на каждый А ULV (что для начала составляет всего 8), поэтому это не так эффективно, как использование LV или выше. Только имейте в виду, что лучше иметь больше А к большему числу коробок передач, чем к одному и тому же.\n\nКонечно, если вы смешиваете более медленные кадры с более быстрыми, вам вряд ли понадобится такой уровень мин-макс."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Forestry:ffarm",
+          "Count:3": 1,
+          "tag:10": {
+            "FarmBlock:4": 0
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.02",
+          "Count:3": 4,
+          "Damage:2": 31305,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "Forestry:thermionicTubes",
+          "Count:3": 4,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 32600,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Forestry:ffarm",
+          "Count:3": 2,
+          "tag:10": {
+            "FarmBlock:4": 0
+          },
+          "Damage:2": 2,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "Forestry:thermionicTubes",
+          "Count:3": 4,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Forestry:thermionicTubes",
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "Forestry:thermionicTubes",
+          "Count:3": 4,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 19,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinFarmer",
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1225
+    }
+  },
+  "questIDLow:4": 1989,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "StevesFactoryManager:BlockMachineManagerName",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Менеджер по инвентаризации машин",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Основной блок Стейси... э-э, директора фабрики Стива. SFM — это система автоматизации высокого уровня. В то время как AE2 может справиться с множеством различных задач по крафту, SFM может справиться с еще более сложным крафтом. На сборочной линии в этом нет необходимости. Но тем не менее, это то место, где вы можете пойти по этому пути.\n\nКабели инвентаря соединяют MIM с инвентарем или резервуарами.\n\nПрямо сейчас, пока какой-нибудь идиот не догадается об этом, лучше всего поэкспериментировать, попросить помощи в Discord и поискать в Google. Интерфейс напоминает большинство систем автоматизации на основе графического интерфейса, таких как LabView.\n\nБыли проблемы с TPS, вызванные плохо спроектированными установками SFM. Убедитесь, что ваши выходы правильно опорожнены и не заполняются.\n\nИнвентарные кабели являются «базовым» кабелем SFM. Они позволяют MIM взаимодействовать с инвентарем и выступать в качестве соединительного кабеля для других кабелей.\n\nmehdi2344 думает, что мои шутки отстой, но он идиот, вот и все.\n\nСпасибо Нори Сильверрейдж за написание этих квестов!\n\n§3Кстати, для креативного тестирования существует Creative Поставщик. Соединитель Energistics отключен, поскольку он работает неправильно."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "StevesFactoryManager:BlockMachineManagerName",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "StevesFactoryManager:BlockCableName",
+          "Count:3": 24,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "StevesFactoryManager:BlockCableName",
+          "Count:3": 40,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

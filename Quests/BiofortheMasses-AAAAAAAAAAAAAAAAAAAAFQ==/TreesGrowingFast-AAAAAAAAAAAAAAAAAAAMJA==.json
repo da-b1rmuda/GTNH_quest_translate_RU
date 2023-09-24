@@ -1,0 +1,151 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 160
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3141
+    }
+  },
+  "questIDLow:4": 3108,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 836,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "OR",
+      "repeat_relative:1": 1,
+"name:8": "Деревья растут быстрее",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Независимо от того, каким способом вы раньше добывали древесину, его можно упростить. Нет ничего проще, чем просто выдергивать все больше и больше древесины из мультиблока, на котором даже деревья не растут! Это то, что делает симулятор роста деревьев со специальным входом: пилами. Этот мульти может заменить бонсай, которые использовались для автоматизации дерева, однако он доступен только в IV. Пока у вас есть еще два варианта:\n\nЧтобы продолжать использовать бонсай, если вы получили по ним хорошую статистику, вы можете использовать HV-версию Crop Manager или мультиблочную версию Multifarm. Этот мульти-модуль особенный, потому что ему нужны урановые стержни, которые являются высоковольтными из-за необходимости в Глазах Края, но у него огромный радиус действия для сбора урожая, он может работать с 1000 из них, потребляя при этом только 6 ампер ULV при правильной сборке. Он также автоматически увлажняет и удобряет почву и работает с удобрениями гораздо эффективнее, чем его конкуренты. По сравнению с Crop Manager, он теряет только дополнительные капли за урожай.\n\nПомимо этих двух вариантов, вы также можете выращивать и собирать деревья в обычном режиме с помощью EnderIO Farmer, который является более типичной машиной для автоматизации деревьев. Он похож на высоковольтный замок, он прост, надежен и требует лишь немного мощности, чтобы добыть нужную древесину и с довольно высокой скоростью. В идеале вам нужно использовать небьющийся топор для пиломатериалов из того типа дерева, из которого можно получить много бревен (подойдет ель). Чтобы получить много дров, вы можете использовать разбрызгиватели с водой или мировой ускоритель."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 836,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 31113,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Forestry:ffarm",
+          "Count:3": 36,
+          "tag:10": {
+            "FarmBlock:3": 0
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "3:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 3,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "EnderIO:blockFarmStation",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "4:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 4,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:log",
+          "Count:3": 64,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "IC2:itemCropSeed",
+          "Count:3": 1,
+          "tag:10": {
+            "owner:8": "berriespp",
+            "name:8": "Oak Bonsai",
+            "scan:1": 4,
+            "growth:1": 1,
+            "resistance:1": 1,
+            "gain:1": 1
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

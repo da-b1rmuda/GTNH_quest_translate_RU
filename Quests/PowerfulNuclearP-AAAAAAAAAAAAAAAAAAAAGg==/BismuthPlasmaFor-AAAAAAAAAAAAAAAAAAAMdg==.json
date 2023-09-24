@@ -1,0 +1,83 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3191
+    }
+  },
+  "questIDLow:4": 3190,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "miscutils:particleIon",
+        "Count:3": 1,
+        "tag:10": {
+          "Ion:10": {
+            "Charge:4": 0
+          }
+        },
+        "Damage:2": 82,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Плазма висмута для пайки",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Кто в здравом уме будет использовать плазму для спайки вещей? Это душевно. Ну, вся эта прогрессия на данный момент является ментальной, вот и все.\n\nОднако дело не напрямую в плазме. Речь снова идет о мутировавшем живом припое, а теперь и о его жидкостях: оловянной плазме и висмутовой плазме. Это два основных компонента предыдущих припоев, и именно поэтому они здесь. Плазма олова — это термоядерный синтез t2, и вы, возможно, уже сделали много ее для выработки энергии, но плазма висмута — это t3, а входными данными являются плазма цинка и расплавленный тантал, который в конечном итоге представляет собой тритий, медь и тантал.\n\nРецепты дешевы по мощности, вам просто нужно убедиться, что исходные данные есть. Тритий можно центрифугировать из дейтерия, который сам по себе можно центрифугировать из газообразного водорода, а два других источника легко получить. Вам понадобится 18 000 л каждой плазмы на 40 000 л припоя, или почти половина количества на каждую."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 16,
+          "Damage:2": 31036,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.99",
+          "Count:3": 32,
+          "Damage:2": 80,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 31090,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

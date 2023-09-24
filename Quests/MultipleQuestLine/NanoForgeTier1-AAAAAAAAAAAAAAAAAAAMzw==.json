@@ -1,0 +1,84 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2649
+    }
+  },
+  "questIDLow:4": 3279,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metaitem.03",
+        "Count:3": 1,
+        "Damage:2": 4010,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Нано-кузница, уровень 1",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Должен быть способ заставить нанороботов работать в машине. Карбоновые можно делать на конвейере, но очень неэффективно. Должен быть лучший способ.\n\nА как насчет нано-кузницы, способной разрезать блоки на нанотонкие листы, а затем создавать первый нанит, который помогает создавать тысячи таких блоков за считанные секунды?\n\n§3Нано-Кузница — это большой мультиблок, требующий большой мощности в течение пары минут. Способен использовать энергетические люки ТТ (в том числе лазерные). Для использования рецептов первого уровня у контроллера должен быть углеродный нанит.\n\nНесмотря на заявления NEI, для рецептов Nano Forge не существует минимальных напряжений. Если вы хотите реализовать рецепт, вам просто нужно получить необходимое значение EU/t, независимо от напряжения."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.03",
+          "Count:3": 1,
+          "Damage:2": 4010,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 357,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockcasings8",
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 4501,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

@@ -1,0 +1,92 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 225
+    }
+  },
+  "questIDLow:4": 3220,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Botania:grassSeeds",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Корни магии",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Если вы знакомы с Ботанией, вы заметите, что в окружающем мире заметно нет волшебных цветов и грибов. К сожалению, такие красивые проявления магии требуют от вас повышения уровня ваших магических навыков. А пока вам придется довольствоваться тем, что мир может предложить.\n\nИщите мерцающие грибы в глубоких пещерах Сумеречного леса на низких уровнях Y. Это ваш исходный ингредиент, и его можно использовать вместо лепестков цветов. Будьте осторожны: в отличие от цветов, вы пока не можете вырастить больше, поэтому будьте осторожны с тем, для чего вы их используете."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Botania:mushroom",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "listMagicMushroom"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinFlowerI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinAdventureI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 1,
+      "choices:9": {
+        "0:10": {
+          "id:8": "Botania:mushroom",
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 36,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

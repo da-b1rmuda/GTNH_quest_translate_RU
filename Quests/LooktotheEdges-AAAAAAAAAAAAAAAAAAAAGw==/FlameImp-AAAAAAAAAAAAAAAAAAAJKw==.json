@@ -1,0 +1,197 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1574
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2334
+    }
+  },
+  "questIDLow:4": 2347,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:spawn_egg",
+        "Count:3": 1,
+        "Damage:2": 6413,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Огненный бес",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Огненные бесы — это демоны, тесно связанные с огненной магией.\n\nНе такие физически сильные, как их более тусклые собратья, Огненные Бесы — озорные существа, которых очень легко убедить обещаниями личной выгоды. Их могут даже привлечь на службу к ведьме (или колдуну), если предложение будет достаточно хорошим.\n\nОгненные бесы вызываются с помощью Обряда Призыва, и они, скорее всего, нападут на первого человека, которого увидят. С ними желательно быстро заключить сделку.\n\nЗаключение сделки\n\nЧтобы привязать Огненного Беса к службе, ведьма должна записать соглашение в Демонический контракт и подписать его собственной кровью (создание с помощью комплекта Taglock).\nЗатем этот контракт необходимо передать Огненному Бесу, который потребует предоплату за уровни опыта (обычно 25).\n\nКак только сделка будет заключена, бес будет привязан к месту сделки и не сможет уйти слишком далеко. Бес нападет на любого, кто враждебно настроен по отношению к его хозяину.\n\nБесам нравится получать ценные подарки, и, получив должное впечатление, бес может быть готов выполнить различные заклинания, связанные с пламенем, по просьбе своего хозяина.\n\nЗаклинания принимают форму контрактов, описывающих, что и для кого должно быть сделано.\nПросто создайте Демонический контракт с необходимыми компонентами, а затем получившийся контракт с помощью таглока.\nЗатем отдайте контракт Бесу. Пока существо находится в том же измерении, магия будет действовать.\n\nОгненный бес также может иногда делать подарки в обмен на ценные вещи. Известно, что к ним относятся души демонов, которые можно съесть, чтобы позволить ведьме произносить демонические заклинания.\n\nЕсли с ним хорошо обращаться, Огненный бес может даже дать знания, позволяющие призвать Повелителя Мучений."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "witchery:ingredient",
+          "Count:3": 1,
+          "Damage:2": 38,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "witchery:ingredient",
+          "Count:3": 1,
+          "Damage:2": 80,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "minecraft:ender_pearl",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "witchery:ingredient",
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "witchery:ingredient",
+          "Count:3": 1,
+          "Damage:2": 140,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "witchery:taglockkit",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:diamond",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 3,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "witchery:ingredient",
+          "Count:3": 1,
+          "Damage:2": 141,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "witchery:ingredient",
+          "Count:3": 1,
+          "Damage:2": 23,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "witchery:ingredient",
+          "Count:3": 2,
+          "Damage:2": 38,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "witchery:chalkinfernal",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "witchery:chalkheart",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 54,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinSurvivorII",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinWitchII",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardII",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

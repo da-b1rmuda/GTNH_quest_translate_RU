@@ -1,0 +1,123 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 333
+    }
+  },
+  "questIDLow:4": 2335,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "witchery:taglockkit",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Комплект таглока",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Наборы таглоков используются для сбора таглоков у других игроков или существ. Тэглоки, такие как пряди волос, обрезки ногтей или кровь, используются в различных рецептах, чтобы создать связь между существом и магией.\n\nИспользуйте комплект тегов на существе или использованной кровати игрока, чтобы собрать несколько тегов у этого существа. Повторное использование на одной и той же кровати приведет к циклическому срабатыванию таглоков для каждого игрока, который использовал эту кровать. Набор также можно использовать на сундуке-пиявке, чтобы собирать теги от пользователей, открывших сундук, или на Кровавой розе, чтобы собирать теги у игрока, который прошел по нему.\n\nНажатие клавиши Shift на любой кровати заполнит комплект тэглоками текущего игрока.\n\nСбор тэглоков с помощью набора на игроке может потерпеть неудачу и сообщить другому игроку, что вы пытались сделать. Чтобы увеличить вероятность получения таглока от игрока, подкрадывайтесь и предпочитаете подходить сзади.\n\nТаглокы можно получить только у игроков, вошедших в тот же мир.\n\nНаборы Taglock изготавливаются путем изготовления стеклянной бутылки с помощью костяной иглы."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "witchery:ingredient",
+          "Count:3": 16,
+          "Damage:2": 7,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "minecraft:glass_bottle",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "witchery:taglockkit",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "witchery:ingredient",
+          "Count:3": 4,
+          "Damage:2": 163,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "minecraft:glass_bottle",
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 53,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinWitchI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

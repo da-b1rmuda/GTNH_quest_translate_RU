@@ -1,0 +1,43 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 879
+    }
+  },
+  "questIDLow:4": 2411,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ExtraUtilities:dark_portal",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Золото дурака",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Подержав какое-то время Изначальное Заклинание, вы внезапно понимаете некоторые его шепоты! В нем рассказывается о земле, наполненной несметными богатствами, которая только и ждет, пока кто-нибудь заберет их. Вы насмехаетесь над претензией, но, видимо, если вы «Откроете Глаз» и создадите очень причудливый резной камень, то сможете создать там портал. Но этот глаз, о котором здесь говорится... что это такое? Может быть, погрузившись в темное царство магии... ба! Только дураки поверят в такую \u200b\u200bчушь."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

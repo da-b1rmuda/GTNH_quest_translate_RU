@@ -1,0 +1,208 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 88
+    }
+  },
+  "questIDLow:4": 77,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 1000,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§r§6§l§5§l§o§l§r§6§lEBF-Time",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Чтобы получить слитки алюминия(i), вам понадобится электрическая доменная печь. Это еще один очень важный шаг на пути к победе, так что давайте начнем.\n\nПолучить слюду для нагревательных спиралей может быть немного сложно, но вы можете использовать замену первому ряду спиралей.\nВам понадобятся 2 люка НН на 4А напряжением 32В всего, либо 3 люка НН с МООООРЕ питанием, если мультиблок не полностью отремонтирован.\nЧтобы не скупиться на никель, ознакомьтесь с квестом «Источник никеля» во вкладке «Чародейство для новичков».\n\n§rНекоторые рецепты производят CO2/SO2 в виде жидкости. Вы можете поместить люк для выпуска жидкости на верхний слой EBF, чтобы собрать ее, иначе она автоматически опорожняется. От люка глушителя зависит, сколько жидкости можно восстановить. Рецепты Барта Платиновой серии выводят жидкости в НИЖНЮЮ часть, поэтому, если вы захотите сделать Платиновые вещи позже, помните об этом.\n\nДебил всегда говорит: «Сделай глушитель Moint Mup». Или хотя бы указать вверх. Перед запуском не забудьте исправить проблемы с обслуживанием и при необходимости поставить запрограммированную схему.\n\nЕсли вам нужен действительно необычный EBF, вы можете добавить больше люков для подачи жидкости и хранить в каждом разные жидкости.\n\nEBF также имеет регулировку нагрева 100K для каждого уровня мощности выше или ниже MV. Сейчас вы можете сделать только люки для энергии низкого напряжения, но установка двух люков для энергии низкого напряжения разгонит EBF до мощности среднего напряжения, устранив штраф в 100К и установив начальный нагрев до 1801К.\n\nПо мере того, как вы повышаете свой EBF в ходе игры, эта регулировка тепла будет увеличиваться. Два люка энергии MV (разгон до HV) добавят 100К, два люка энергии HV (разгон до EV) дадут 200К и так далее. Катушки устанавливают только базовое значение. Эта корректировка не распространяется на Volcanus.\n\nЕсли загрязнение становится очень сильным, купите в GT Multiblocks очиститель загрязнений или модернизируйте свой глушитель."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockcasings",
+          "Count:3": 11,
+          "Damage:2": 11,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 1000,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 71,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 81,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 51,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "3:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 3,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 90,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 91,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "4:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 4,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 2,
+          "Damage:2": 41,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "5:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 5,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 128,
+          "Damage:2": 1341,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "6:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 6,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockcasings5",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 3,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 32764,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnician",
+          "Count:3": 75,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

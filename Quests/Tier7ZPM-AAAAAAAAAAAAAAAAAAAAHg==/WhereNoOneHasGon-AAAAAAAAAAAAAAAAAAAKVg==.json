@@ -1,0 +1,46 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2640
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2610
+    }
+  },
+  "questIDLow:4": 2646,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "GalaxySpace:item.Tier6Rocket",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Куда еще никто не ходил",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Еще одна ракета, еще один набор планет. Приступайте уже к работе, именно поэтому вы это сделали, верно?\n\nНа этот раз новых планет только две: Протей и Тритон. Они оба спутники Нептуна.\n\nНовые жилы — это нейтроний, ниобий и торий. Руды: Адамантий, Галлий, Наквада, Нейтроний, Ниобий, Плутоний-241, Титан, Уран-235, Уран-238 и Иттрий.\n\nВы можете получить Черный Плутоний из небольших руд на Тритоне.\n\nВо время посещения вам следует подобрать несколько блоков планет.\n\nСхема есть на Протеусе."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

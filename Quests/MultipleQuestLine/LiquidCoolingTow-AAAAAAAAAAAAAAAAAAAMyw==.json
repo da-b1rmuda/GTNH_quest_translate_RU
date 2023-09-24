@@ -1,0 +1,83 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2675
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3273
+    }
+  },
+  "questIDLow:4": 3275,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "IC2:upgradeModule",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Жидкостная градирня",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Я начал пробивать предел мультиблока, не разгоняя его, поэтому решил поставить на него жидкостный охладитель для охлаждения механизма. Это позволит ему разгоняться, как и любой другой мультимодуль, с 2xSpeed \u200b\u200b4xEU/t.\n\nМне нужно будет подать в его люк немного дистиллированной воды, чтобы избежать засора труб.\n\n§3Жидкостная градирня позволяет мультиблоку иметь 2/4 ОС за счет 10/с дистиллированной воды во время работы. Люк расположен в центре жидкостной градирни."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 4431,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockcasings8",
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.blockcasings8",
+          "Count:3": 1,
+          "Damage:2": 12,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.blockcasings8",
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "gregtech:gt.blockcasings2",
+          "Count:3": 1,
+          "Damage:2": 15,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

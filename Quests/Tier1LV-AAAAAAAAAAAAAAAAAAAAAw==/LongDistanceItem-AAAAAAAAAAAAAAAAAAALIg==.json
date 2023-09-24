@@ -1,0 +1,105 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 930
+    }
+  },
+  "questIDLow:4": 2850,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 2701,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§5§lКонвейер предметов на большие расстояния",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Разве не было бы здорово, если бы вы могли транспортировать руду из далекой рудной жилы по трубам на свою базу?\n\nЭто больше не проблема. Соедините свою установку в начальной и конечной точках с блоком Long Distance Item Pipeline. Между ними используйте связанные блоки труб — общее расстояние между конечными точками должно быть более 64 блоков друг от друга (4 или более блоков). У каждого конвейера может быть только одна начальная и конечная точки.\n\nЧтобы его подключить, вам необходимо выровнять начальный блок LDIP так, чтобы стрелки были направлены внутрь, а на противоположной стороне был блок LDIPP. Поместите конвейер на сторону блока, на которой есть стрелки, и настройте импорт. Теперь он попытается импортировать данные в конечную точку LDIP. Это будет происходить настолько быстро, насколько вы сможете поместить в него предметы.§r\n\nСделайте противоположное на дальней стороне, за исключением того, что конвейер вам не нужен.\n\nТеперь вам нужно только загрузить начальную и конечную точки, и предметы будут «телепортированы» к вам.\n\nКонечно, позже вы, вероятно, будете использовать сундуки Эндера, чтобы фактически телепортировать руду, особенно из других димов.\n\nЭта установка не имеет задержек в блоках труб, поэтому она полезна и на вашей базе, если вы хотите уменьшить задержку."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 2,
+          "Damage:2": 2701,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.block.longdistancepipe",
+          "Count:3": 64,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 2,
+          "Damage:2": 32630,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "IronChest:BlockIronChest",
+          "Count:3": 2,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnician",
+          "Count:3": 15,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

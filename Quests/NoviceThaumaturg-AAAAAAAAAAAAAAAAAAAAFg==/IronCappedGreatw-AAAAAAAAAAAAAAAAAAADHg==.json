@@ -1,0 +1,77 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 234
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 235
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 236
+    }
+  },
+  "questIDLow:4": 798,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:WandCap",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Жезл Великого Дерева с Железным Навершием",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Для изготовления жезла из великого дерева с золотым колпачком требуется 30 Вис, но предел вашей старой палочки - 25. Поэтому сначала создайте жезл из великого дерева с железным или медным наконечником, перезагрузите его на 50 Вис, а затем позже в следующем квесте создайте жезл из великого дерева с золотым колпачком.\n\n§3Вы всегда можете нажать команду NEI «U» на крышках, сердцевине или ингредиенте-боссе, чтобы найти правильный рецепт GT:NH для жезлов."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Thaumcraft:ItemLootBag",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

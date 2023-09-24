@@ -1,0 +1,87 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 67
+    }
+  },
+  "questIDLow:4": 1147,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 1246,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§3§2§4§3§lПровода и кабели в стиле GT6",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Они работают в основном так же, как трубы, но вместо гаечного ключа вам потребуются кусачки (или паяльник). Кроме того, вы получаете урон, если они не изолированы (провод), но не изолированы (кабель).\n\nПодсказка: если щелкнуть один провод или кабель по другому, произойдет автоматическое подключение. Кабели и трубы можно покрасить, чтобы убедиться, что вы не пересекаете линию среднего напряжения с линией электромобиля или не сливаете горячую лаву в пластиковые водопроводные трубы. Никакого бума сегодня.\n\nХа-ха, шучу, сегодня всегда бум!"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "harvestcraft:splitpeasoupItem",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 1,
+      "choices:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 8,
+          "Damage:2": 2880,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "2:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 2,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnician",
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

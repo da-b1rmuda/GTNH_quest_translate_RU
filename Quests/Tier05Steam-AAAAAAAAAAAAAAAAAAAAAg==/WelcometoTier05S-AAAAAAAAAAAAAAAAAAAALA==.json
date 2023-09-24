@@ -1,0 +1,88 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 40
+    }
+  },
+  "questIDLow:4": 44,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 100,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§3§lДобро пожаловать на уровень 0.5, Steam!",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Добро пожаловать, и пока молодцы! Этот уровень посвящен вашим первым машинам, получению большего количества материалов из руд и более эффективному изготовлению бронзовых слитков.\n\nЧто касается воды, проверьте мультиблок «Резервуар для воды» на вкладке «Цели мультиблока».\n\nЧтобы подключить котлы, обязательно подавайте воду снизу, они будут принимать воду только с этой стороны, поэтому нет риска расплавить трубу. Для этого подойдут деревянные трубы. Следите за тем, чтобы у вас никогда не кончалась вода: если добавить воду в горячий котел, он взорвется!\n\nПар будет выходить с боков. Помните, пар горячий! Это разрушит деревянные трубы. И он может обжечься, если вы пойдете по бронзовым трубам, полным пара. Накройте их деревянными досками или бумагой. Или просто не ходите рядом с ними.\n\nИ нет, вы не можете это автоматизировать. Если хотите, сделайте электрический."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 100,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Railcraft:fuel.coke",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "minecraft:coal",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "minecraft:coal",
+          "Count:3": 2,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 2,
+          "Damage:2": 8538,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

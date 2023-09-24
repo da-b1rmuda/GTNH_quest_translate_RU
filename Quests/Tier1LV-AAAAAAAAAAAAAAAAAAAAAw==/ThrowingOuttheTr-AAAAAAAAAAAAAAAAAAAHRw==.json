@@ -1,0 +1,88 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 97
+    }
+  },
+  "questIDLow:4": 1863,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "RandomThings:dropFilter",
+        "Count:3": 1,
+        "Damage:2": 1,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§5§lВыброс мусора",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "У вас уже есть бочки с булыжником? Фильтр аннулирования выпадения можно настроить на автоматическое аннулирование любого предмета при получении. Булыжник, грязь, стрелы, саженцы и т. д. Это удобно, когда у вас мало места для мусора.\n\nЧтобы использовать, щелкните правой кнопкой мыши фильтр предметов, который вы получите в награду. Поместите вещи, которые вы хотите аннулировать, в список фильтров элементов, щелкнув там вместе с ними. Esc, затем щелкните правой кнопкой мыши фильтр удаления пустот и поместите фильтр элементов внутрь."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "RandomThings:dropFilter",
+          "Count:3": 1,
+          "tag:10": {
+            "Inventory:10": {
+              "Items:9": {}
+            }
+          },
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "berriespp:BppPotions",
+          "Count:3": 1,
+          "Damage:2": 8,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "RandomThings:filter",
+          "Count:3": 1,
+          "tag:10": {
+            "metadata:4": 1,
+            "oreDict:4": 0,
+            "Inventory:10": {
+              "Items:9": {}
+            }
+          },
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 609
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 77
+    }
+  },
+  "questIDLow:4": 755,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metatool.01",
+        "Count:3": 1,
+        "tag:10": {
+          "GT.ToolStats:10": {
+            "SpecialData:4": -1,
+            "PrimaryMaterial:8": "Iron",
+            "Tier:4": 1,
+            "MaxDamage:4": 25600,
+            "Voltage:4": 32,
+            "MaxCharge:4": 100000,
+            "Electric:4": 1,
+            "SecondaryMaterial:8": "Rubber"
+          },
+          "GT.ItemCharge:4": 100000
+        },
+        "Damage:2": 160,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§6§lЛучше, чем клейкая лента",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Использование паяльника для удаления сообщения «сгоревшие цепи» обходится дешевле, чем клейкая лента.\n\nДля паяльника требуется одна единица паяльного материала и 10 000 ЭУ. Подходящими материалами для пайки являются тонкая проволока, стержни и слитки, изготовленные из олова, свинца или припоя. Паяльник сожрет первый такой материал, который он найдет в инвентаре игрока. Поскольку у вас, скорее всего, будет более чем достаточно, лучше всего подойдут тонкие проволоки из паяльного сплава.\n\nВы также можете использовать его для регулировки силы красного камня от слабой до сильной, излучаемой машинами GT.\n\nКроме того, если держать его в руках, все трубы, провода и кабели будут выглядеть очень маленькими, так что вы сможете видеть все, что находится за ними, а также быть уверены в точных соединениях.\n\nЧтобы «завершить» квест, вам нужно будет зарядить паяльник после его изготовления.\n\nДля решения других задач необходимы другие инструменты. Имейте в виду, что вы можете поместить все необходимые инструменты в набор инструментов, чтобы решить все проблемы одним щелчком мыши.\n\nВозможные проблемы Инструмент для устранения\n«Труба ослабла». Гаечный ключ\n«Винты ослаблены». Отвертка\n«Что-то застряло». Мягкий молоток\n«Покрытия помяты». Молоток\n«Цепь сгорела». Паяльник\n«Этому там не место». лом"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "Damage:2": 160,
+          "OreDict:8": "craftingToolSolderingIron"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 3,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.02",
+          "Count:3": 64,
+          "Damage:2": 19314,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

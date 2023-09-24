@@ -1,0 +1,68 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3037
+    }
+  },
+  "questIDLow:4": 3209,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metaitem.01",
+        "Count:3": 1,
+        "Damage:2": 30001,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Газовые планеты",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Вероятно, вам также понадобится хороший обзор того, что вы можете получить с помощью газового сифона. Итак, поехали:\n\n\nЮпитер§r\n1 Водород - 15000 л/с\n2 Гелий - 500 л/с\n3 Азот - 300 л/с\n4 Кислород - 200 л/с\n\n§оСатурн§r\n1 Водород - 18000 л/с\n2 Гелий - 800 л/с\n3 Кислород - 500 л/с\n4 Жидкий кислород – 150 л/с\n\n§оУран§r\n1 Дейтерий - 5000 л/с\n2 Неона - 450 л/с\n3 Аргон - 250 л/с\n4 Криптон - 100 л/с\n\n§оНептун§r\n1 Тритий - 3000 л/с\n2 Гелий-3 - 500 л/с\n3 Аммиак - 400 л/с\n4 Ксенон - 350 л/с"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 14002,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 15,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

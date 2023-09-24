@@ -1,0 +1,224 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2355
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2361
+    }
+  },
+  "questIDLow:4": 2359,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "HardcoreEnderExpansion:endoplasm",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Посетите Заражённый остров",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Заражённые острова в основном представляют собой плоский биом с редкими холмами, длинными пещерами и приличным количеством руд. Существует 2 варианта биома — Глубокий и Разрушенный. Оба этих варианта содержат серебряную рыбу, зараженных летучих мышей и иногда людей Края.\n\nВариант Deep густо населен жуткими деревьями, на которых могут быть лица. На земле растут все виды зараженных растений, включая колючие кусты.\n\nВ варианте «Разорение» есть участки зараженных растений и иногда жуткие деревья, но самой важной особенностью является «Разрушенное подземелье», которое является открытыми вратами к Чарам.\n\nО заражении:\nЕсли просто стоять на местности Крайнего камня, уровень заражения повысится. Если после выхода из зоны на несколько минут уровень заражения низкий, он сбрасывается и не причиняет игроку никакого вреда.\n\nОднако, если уровень заражения станет достаточно высоким, это вызовет один или несколько эффектов зелий, которые включают слабость, медлительность и усталость от добычи полезных ископаемых, а если уровень игрока серьезный, также могут возникнуть слепота, замешательство и / или отравление. Эти эффекты нельзя вылечить с помощью молока, однако вы можете выпить Infestation Remedy, чтобы сократить их."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "HardcoreEnderExpansion:end_stone_terrain",
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "HardcoreEnderExpansion:ravaged_brick",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "HardcoreEnderExpansion:ravaged_brick",
+          "Count:3": 2,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "HardcoreEnderExpansion:ravaged_brick",
+          "Count:3": 2,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "HardcoreEnderExpansion:ravaged_brick",
+          "Count:3": 2,
+          "Damage:2": 3,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "HardcoreEnderExpansion:ravaged_brick",
+          "Count:3": 2,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "HardcoreEnderExpansion:ravaged_brick_glow",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "6:10": {
+          "id:8": "HardcoreEnderExpansion:ravaged_brick_slab",
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "HardcoreEnderExpansion:dry_splinter",
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "HardcoreEnderExpansion:crossed_decoration",
+          "Count:3": 16,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "HardcoreEnderExpansion:crossed_decoration",
+          "Count:3": 16,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "HardcoreEnderExpansion:crossed_decoration",
+          "Count:3": 16,
+          "Damage:2": 3,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 3,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "HardcoreEnderExpansion:endoplasm",
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "HardcoreEnderExpansion:stardust",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "HardcoreEnderExpansion:endoplasm",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 57,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinSurvivorII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "dreamcraft:item.CoinAdventureII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "HardcoreEnderExpansion:knowledge_note",
+          "Count:3": 1,
+          "tag:10": {
+            "pts:1": 65
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

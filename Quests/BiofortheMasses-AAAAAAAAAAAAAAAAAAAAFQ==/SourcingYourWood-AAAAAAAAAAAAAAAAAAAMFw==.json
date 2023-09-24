@@ -1,0 +1,141 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3092
+    }
+  },
+  "questIDLow:4": 3095,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:log",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Поиск древесины",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Когда дело доходит до получения энергии из дерева, единственными вариантами до сих пор были сама древесина и древесный уголь. Оба они потребляют мало энергии на единицу, поэтому вам понадобится много древесины, чтобы получить приличную производительность ЕС/т. Как же тогда можно легко получить столько? Есть два способа: автоматизированный и неавтоматизированный.\n\nАвтоматизированный способ можно выполнить с помощью одной из нескольких машин, но в LV у вас есть только один вариант: LV Crop Manager. Он может автоматически собирать урожай на территории вокруг себя, и в этой ситуации вам нужен один из нескольких бонсай. Вы можете получить их, посадив саженцы на палочки (более подробную информацию о том, как работают культуры, можно найти на странице «Лесное хозяйство и мультифермы»), и большинство типов саженцев эквивалентны друг другу, хотя не все из них можно сажать как сельскохозяйственные культуры. Выделяются ель, которая дает немного больше древесины, чем другие, и дуб, который дает яблоки наряду с обычной древесиной и саженцами, которые, возможно, пригодятся позже для некоторой химии.\n\nНеавтоматический способ можно выполнить раньше, и для него требуются всего две вещи: нерушимый лесоруб и деревья с большим количеством древесины, такие как Священный дуб, Красное дерево или Тропический дуб. Этот топор срубит (большую часть) деревьев и наградит вас штабелями дров, гораздо быстрее, чем автоматический способ, но требует больше работы. Этот процесс может быть полезен вначале, но в какой-то момент вам придется автоматизировать загрузку древесины.\n\nВыполните одно из заданий и добудьте немного дерева, чтобы продолжить."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 31111,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "TConstruct:lumberaxe",
+          "Count:3": 1,
+          "tag:10": {
+            "InfiTool:10": {
+              "RenderExtra:3": 6,
+              "BaseDurability:3": 301,
+              "BaseAttack:3": 2,
+              "ToolEXP:4": 0,
+              "Built:1": 1,
+              "HarvestLevel:3": 6,
+              "RenderHead:3": 6,
+              "ModDurability:5": 0.0,
+              "Shoddy:5": 0.0,
+              "RenderHandle:3": 6,
+              "Accessory:3": 6,
+              "MiningSpeed:3": 650,
+              "Unbreaking:3": 3,
+              "Damage:3": 0,
+              "HarvestLevel2:3": 6,
+              "BonusDurability:3": 0,
+              "TotalDurability:3": 301,
+              "MiningSpeed2:3": 650,
+              "Head:3": 6,
+              "Attack:3": 2,
+              "Handle:3": 6,
+              "Broken:1": 0,
+              "Extra:3": 6,
+              "RenderAccessory:3": 6,
+              "ToolLevel:3": 1,
+              "Modifiers:3": 0
+            },
+            "display:10": {
+              "Name:8": "§fObsidian Lumber Axe"
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:log",
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinTechnician",
+          "Count:3": 20,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

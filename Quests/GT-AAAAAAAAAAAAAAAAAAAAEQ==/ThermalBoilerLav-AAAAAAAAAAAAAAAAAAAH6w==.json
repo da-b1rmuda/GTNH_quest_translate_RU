@@ -1,0 +1,98 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -4353932262274808847,
+      "questIDLow:4": -8959971444972358643
+    }
+  },
+  "questIDLow:4": 2027,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 875,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§6§lТермальный котел - Лава вам надолго",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Если вам нужна энергия из лавы и побочных продуктов, тепловой котел — идеальное решение. Он очень быстро обрабатывает лаву для пара, а с помощью лавового фильтра также можно получить некоторые побочные продукты центрифугированной лавы. Отличный источник меди, серебра, золота, олова, тантала и вольфрамата, производительность выше, чем при обычной обработке лавы в центрифуге.\n\nВы можете добиться еще большей эффективности, соединив его с большим теплообменником. LHE превратит обычную ванильную лаву в лаву Пахохо, которая будет обеспечивать пар и побочные продукты в термическом котле. Победа/Выигрыш/Выигрыш!\n\n§3Этот мульти-IV."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 875,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "miscutils:itemLavaFilter",
+          "Count:3": 1,
+          "tag:10": {
+            "LavaFilter:10": {
+              "Damage:4": 0
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "miscutils:miscutils.blockcasings",
+          "Count:3": 1,
+          "Damage:2": 3,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "miscutils:miscutils.blockcasings",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "miscutils:itemLavaFilter",
+          "Count:3": 3,
+          "tag:10": {
+            "LavaFilter:10": {
+              "Damage:4": 0
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

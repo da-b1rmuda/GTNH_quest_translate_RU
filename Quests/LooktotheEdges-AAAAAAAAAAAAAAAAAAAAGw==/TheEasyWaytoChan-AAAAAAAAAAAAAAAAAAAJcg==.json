@@ -1,0 +1,203 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2417
+    }
+  },
+  "questIDLow:4": 2418,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "witchery:brewbottle",
+        "Count:3": 8,
+        "tag:10": {
+          "BrewName:8": "Splash Brew of Shifting Seasons ",
+          "RemainingCapacity:3": 4,
+          "Color:3": 1005186641,
+          "Splash:1": 1,
+          "Items:9": {
+            "0:10": {
+              "id:2": 372,
+              "Count:1": 1,
+              "Damage:2": 0
+            },
+            "1:10": {
+              "id:2": 6948,
+              "Count:1": 1,
+              "Damage:2": 22
+            },
+            "2:10": {
+              "id:2": 6948,
+              "Count:1": 1,
+              "Damage:2": 37
+            },
+            "3:10": {
+              "id:2": 6948,
+              "Count:1": 1,
+              "Damage:2": 29
+            },
+            "4:10": {
+              "id:2": 264,
+              "Count:1": 1,
+              "Damage:2": 0
+            },
+            "5:10": {
+              "id:2": 399,
+              "Count:1": 1,
+              "Damage:2": 0
+            },
+            "6:10": {
+              "id:2": 348,
+              "Count:1": 1,
+              "Damage:2": 0
+            },
+            "7:10": {
+              "id:2": 369,
+              "Count:1": 1,
+              "Damage:2": 0
+            },
+            "8:10": {
+              "id:2": 6948,
+              "Count:1": 1,
+              "Damage:2": 11
+            },
+            "9:10": {
+              "id:2": 6985,
+              "Count:1": 1,
+              "Damage:2": 48
+            },
+            "10:10": {
+              "id:2": 289,
+              "Count:1": 1,
+              "Damage:2": 0
+            }
+          },
+          "UsedCapacity:3": 8,
+          "BrewDrinkSpeed:3": 32,
+          "BrewInfo:8": "Splash \nShifting Seasons IV\n",
+          "Power:3": 5900,
+          "EffectCount:3": 1
+        },
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Простой способ изменить биомы",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Итак, вы хотите простой путь? Хорошо, возьми вот это:\nКорень мандрагоры, Пустота Бородавки, Слеза Богини, Алмазный пар и Алмаз.\n\nЗатем бросьте его в Котёл Ведьмы ПО ПОРЯДКУ, а затем бросьте также страницу из Книги Биомов (Расширенная) (создайте ее из листа бумаги, находясь на странице нужного биома), а затем немного Пороха.\nЗатем просто используйте бутылку, чтобы получить напиток. Если вы носите мантию или шляпу, вы можете получить даже больше одной! (Если у вас большой опыт пивоварения, что маловероятно)\n\nЕсли это не удалось, возможно, вам не хватает Силы Алтаря, вам нужно как минимум 5450. Попробуйте положить Яйцо Дракона или Сердце Демона, если вы близко. Посетите вики для получения более подробной информации об алтарной силе.\n\nЕсли вы хотите иметь более одного измененного блока, добавьте Светящуюся пыль, Пылающий жезл и Настроенный камень (заряженный), чтобы увеличить эффект (и немного стоимость Алтарной силы) на 1 для каждого. Сделайте это перед добавлением на страницу.\n\nБолее подробную информацию можно найти в книге «Ведьмины напитки». Нажмите «Пивоварение», затем перейдите на страницу «Пивоварение: пошаговые инструкции». Это должно сказать вам то, что вам нужно знать. Информацию о том, что на самом деле делает каждый из сортов, можно найти на странице «Эффекты». Только эффекты используют емкость, а их может быть несколько."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "witchery:ingredient",
+          "Count:3": 1,
+          "Damage:2": 22,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "minecraft:nether_wart",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "witchery:ingredient",
+          "Count:3": 1,
+          "Damage:2": 37,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "witchery:ingredient",
+          "Count:3": 1,
+          "Damage:2": 29,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "minecraft:diamond",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "witchery:ingredient",
+          "Count:3": 8,
+          "Damage:2": 22,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "minecraft:nether_wart",
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "witchery:ingredient",
+          "Count:3": 8,
+          "Damage:2": 37,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "witchery:ingredient",
+          "Count:3": 8,
+          "Damage:2": 29,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "minecraft:diamond",
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 53,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinWitchII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

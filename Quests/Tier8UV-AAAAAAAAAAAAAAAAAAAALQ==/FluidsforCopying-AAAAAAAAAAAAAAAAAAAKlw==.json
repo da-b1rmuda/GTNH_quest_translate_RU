@@ -1,0 +1,170 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2649
+    }
+  },
+  "questIDLow:4": 2711,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "bartworks:BioLabParts",
+        "Count:3": 1,
+        "tag:10": {
+          "Plasmid:10": {
+            "Rarity:1": 1,
+            "Tier:3": 0,
+            "Name:8": "Escherichia koli",
+            "Chance:3": 10000
+          },
+          "DNA:10": {
+            "Rarity:1": 1,
+            "Tier:3": 0,
+            "Name:8": "Escherichia koli",
+            "Chance:3": 10000
+          },
+          "Breedable:1": 1,
+          "Color:11": [
+            149,
+            132,
+            75
+          ],
+          "Fluid:8": "escherichiakolifluid",
+          "Rarety:1": 1,
+          "Name:8": "Escherichia koli"
+        },
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Жидкости для копирования культур",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Хорошо, допустим, вы создали какую-то культуру, но хотите большего? Вам понадобится только один на чан, но они расходуются при изготовлении образцов ДНК, поэтому вам, вероятно, следует научиться это делать.\n\nДля начала вам понадобится культура eColi.\n\nИспользуйте его, чтобы сделать бактериальную жидкость eColi.§3 (Я знаю, что название совсем другое, смиритесь с ним)§r\n\nЦентрифугируйте это, чтобы получить жидкую ДНК.\n\nИ объедините его с радоном в миксере, чтобы получить флуоресцентную ДНК.\n\nЖидкость бактерий eColi также можно центрифугировать для получения плазматических мембран (вероятность 10%) и ферментного раствора, так что сделайте это тоже.\n\nА затем снова центрифугируйте раствор ферментов для получения полимеразы.\n\nВам следует ожидать, что вам понадобится значительное количество бактериальной жидкости eColi, если вы планируете копировать множество культур или создавать сложные культуры.\n\n§3Для поиска элементов, связанных с копированием культур, выполните поиск по словам «культура», «образец ДНК» или «плазмида». Вы не можете сделать это со сферами данных, вам нужно проверить использование образцов ДНК.\n\n§5Некоторые жидкости написаны неправильно, не вините меня в этом."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "bartworks:BioLabParts",
+          "Count:3": 1,
+          "tag:10": {
+            "Plasmid:10": {
+              "Rarity:1": 1,
+              "Tier:3": 0,
+              "Name:8": "Escherichia koli",
+              "Chance:3": 10000
+            },
+            "DNA:10": {
+              "Rarity:1": 1,
+              "Tier:3": 0,
+              "Name:8": "Escherichia koli",
+              "Chance:3": 10000
+            },
+            "Breedable:1": 1,
+            "Color:11": [
+              149,
+              132,
+              75
+            ],
+            "Fluid:8": "escherichiakolifluid",
+            "Rarety:1": 1,
+            "Name:8": "Escherichia koli"
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.98",
+          "Count:3": 1,
+          "Damage:2": 11,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.98",
+          "Count:3": 1,
+          "Damage:2": 16,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.98",
+          "Count:3": 1,
+          "Damage:2": 13,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 3,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "bartworks:BioLabParts",
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.98",
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.metaitem.98",
+          "Count:3": 1,
+          "Damage:2": 17,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

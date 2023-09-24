@@ -1,0 +1,86 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2519
+    }
+  },
+  "questIDLow:4": 2522,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "appliedenergistics2:item.ItemMultiPart",
+        "Count:3": 1,
+        "Damage:2": 400,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Визуализация количества ваших вещей",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "ME Storage Monitor позволяет вам визуализировать, сколько у вас вещей. Например, вы можете определить, заканчиваются ли у вас схемы и вам следует сделать больше, или как протекает длительный процесс изготовления. Есть несколько способов их использования.\n\nЩелкните правой кнопкой мыши по предмету: отобразится текущий уровень этого предмета, если он не заблокирован.\nЩелкните правой кнопкой мыши пустой рукой: перезагрузит дисплей, если он не заблокирован.\nЩелкните правой кнопкой мыши гаечным ключом AE2 или сетевым инструментом: переключит блокировку.\n\n\nME Conversion Monitor — это обновленная версия ME Storage Monitor. Он добавляет возможность напрямую изымать или хранить предметы в сети ME. У него обычные взаимодействия и многое другое.\n\nЩелчок правой кнопкой мыши по элементу с нажатой клавишей Shift: попытка вставить стек элементов в сеть. Это работает, даже если это не отображаемый элемент!\nShift-двойной щелчок правой кнопкой мыши: попытка вставить в сеть все стопки элементов отображаемого типа.\nЩелчок правой кнопкой мыши (когда он заблокирован): попытка вытащить стопку отображаемых предметов."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "appliedenergistics2:item.ItemMultiPart",
+          "Count:3": 1,
+          "Damage:2": 400,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "appliedenergistics2:item.ItemMultiPart",
+          "Count:3": 1,
+          "Damage:2": 420,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 37,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 162
+    }
+  },
+  "questIDLow:4": 787,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 1022,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§6§lМууууу Steam",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Титановый большой котел — дальний родственник бронзового и стального котлов, и у него есть существенная разница. Вместо того, чтобы принимать практически любое горючее топливо, он будет принимать только определенные виды топлива и отвергать все остальные. Вы можете увидеть, какие из них принимаются, посмотрев соответствующую вкладку NEI, но твердое супертопливо гарантированно будет работать.\n\nЭто большой недостаток, но плюс в том, что эти котлы выдают приличную мощность даже на этих уровнях. Без каких-либо других ресурсов этот котел производит перегретый пар с расходом, соответствующим 4000 EU/t, на турбинах, работающих со 100% топливной эффективностью. Если это значение станет 150%, то паропроизводительность составит 6000 ЭЭ/т, почти столько же, сколько у форсированного Большого двигателя внутреннего сгорания!\n\nОднако, чтобы получить от этого всю мощность, вам понадобится паровая турбина высокого давления, а затем обычная паровая турбина или несколько таких турбин, если скорость потока слишком велика для выбранного вами материала турбины. Обязательно отправьте дистиллированную воду обратно в котлы!"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 1022,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockcasings2",
+          "Count:3": 3,
+          "Damage:2": 14,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.blockcasings4",
+          "Count:3": 32,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 1022,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 48,
+          "Damage:2": 11028,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 2,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianII",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

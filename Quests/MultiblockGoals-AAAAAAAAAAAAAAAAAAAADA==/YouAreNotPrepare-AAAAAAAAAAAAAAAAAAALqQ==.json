@@ -1,0 +1,99 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 18
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3031
+    }
+  },
+  "questIDLow:4": 2985,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "StevesCarts:CartModule",
+        "Count:3": 1,
+        "Damage:2": 23,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "XOR",
+      "repeat_relative:1": 1,
+"name:8": "§6§6§a§9§8§7§6§5§4§3§2§1§0§3§f§k§f§l§6§lВы не готовы... Но они готовы",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Строительство плавильного завода с нуля может оказаться очень утомительным и трудоемким занятием. Как насчет того, чтобы одолжить один у местных? Они наверняка будут рады поделиться им с недружелюбным искателем приключений, который только что разобрал их кирпичную железнодорожную станцию.\n\nЖители деревни настолько тупы, что потратили все свои обожженные кирпичи, не добавив несколько ключевых компонентов, таких как краны или канализация. Вам все равно придется изготовить плавильные кирпичи самостоятельно...\n\nСовершенно бесполезный совет: если вы отложите строительство достаточно долго, вы сможете разбить обожженные кирпичные блоки на обожженные кирпичные изделия с помощью кузнечного молота или экстрактора.\n\n§3К сожалению, идти по этому пути означает, что мы не будем давать вам награды за квесты, так как этот важный мультиблок вы уже получаете бесплатно. Установите флажок, чтобы подтвердить свое согласие."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "TConstruct:SearedBlock",
+          "Count:3": 2,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "TConstruct:LavaTank",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "TConstruct:Smeltery",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "TConstruct:CastingChannel",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "TConstruct:SearedBlock",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "TConstruct:SearedBlock",
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        },
+        "6:10": {
+          "id:8": "TConstruct:Smeltery",
+          "Count:3": 2,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

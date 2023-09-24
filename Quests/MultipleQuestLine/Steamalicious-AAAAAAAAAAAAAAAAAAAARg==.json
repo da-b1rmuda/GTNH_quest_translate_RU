@@ -1,0 +1,97 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 68
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 71
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 72
+    }
+  },
+  "questIDLow:4": 70,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 1120,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§3§lВкусный пар!",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Вы почти сделали это. Чтобы перейти на уровень 1, необходим последний шаг крафта. Продолжайте!\n\nЭта паровая турбина вырабатывает электроэнергию из пара. Источник питания, который вы использовали, тот же, но с этого момента вы будете генерировать EU и подводить его к своим машинам по кабелям, вместо того, чтобы подавать Steam непосредственно на них. К счастью, электрическим машинам не требуется выхлопное отверстие, и они значительно более эффективны, чем машины Bronze.\n\nОднако позже вы, скорее всего, переключитесь со Steam на другое топливо."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "allowCraftedFromStatistics:1": 0,
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "allowCraft:1": 1,
+      "allowAnvil:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 1120,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:crafting"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "harvestcraft:cranberrybarItem",
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianI",
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

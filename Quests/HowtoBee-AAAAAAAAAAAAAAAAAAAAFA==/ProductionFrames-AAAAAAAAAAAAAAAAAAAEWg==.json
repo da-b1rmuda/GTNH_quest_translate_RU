@@ -1,0 +1,100 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1113
+    }
+  },
+  "questIDLow:4": 1114,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "miscutils:frameBusy",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Производство рамок",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Вы можете сделать проверенные рамки или приобрести их у деревенского жителя. Если вы не можете найти пчеловода, есть несколько вариантов его найти. Спасите деревенского жителя-зомби, добавьте двери в деревню, чтобы заставить их рожать детей, или, возможно, используйте лук и стрелы Купидона...\n\nО волшебных рамках:\nОни являются ядром магически наделенных рамок. У них также есть особая способность — отсутствие максимального шанса производства. Обычные рамки неэффективны для увеличения производительности выше 16x (4 кадра), но с волшебными рамками вы можете продолжать работу - просто будьте осторожны: при увеличении 16x вы будете так усердно работать со своими пчелами, что у них будет шанс выродиться в неблагородных. Это может случиться с любым пчелиным клещом, а не только когда он умирает. Рамки, направленные на замедление генетического распада, снизят вероятность этого.\n\nКонечно, учитывая очень долгую продолжительность жизни, высокую продуктивность генов, роевиков и тонны рамок, вы можете подумать, что оно того стоит.\n\nОбратите внимание, что предел производства обычных продуктов составляет 200 %, а особых — 100 %."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Forestry:frameProven",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "MagicBees:frameMagic",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "MagicBees:frameResilient",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "miscutils:frameBusy",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 26,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinBeesII",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

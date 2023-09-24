@@ -1,0 +1,98 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1312
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1314
+    }
+  },
+  "questIDLow:4": 1315,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "appliedenergistics2:tile.BlockCraftingStorage",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "1 тыс. Хранилища для крафта",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Компонент процессора крафта, обеспечивающий 1024 байта памяти для крафта. Блоки для хранения крафта — единственная необходимая часть. Каждый мультиблок ЦП крафта позволяет выполнять отдельное задание крафта (это отличается от подзадач того же задания). Чем больше предметов в рецепте и подрецептах, тем больше места для крафта вам понадобится. Иметь один большой и пару маленьких может быть хорошей идеей, но помните, что при заказе поделки сначала будет стараться использовать лучший из доступных. Они также используются, когда карта крафта требует крафта, поэтому вам понадобится несколько отдельных, если вы собираетесь использовать их часто. Создаваемый мультиблок ЦП использует только один канал, независимо от его размера. Он должен иметь квадратную форму."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "appliedenergistics2:tile.BlockCraftingStorage",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial",
+          "Count:3": 4,
+          "Damage:2": 39,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.LogicProcessorItemGoldCore",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 37,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianII",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

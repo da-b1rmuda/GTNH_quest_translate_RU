@@ -1,0 +1,98 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 183
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 184
+    }
+  },
+  "questIDLow:4": 1292,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "appliedenergistics2:tile.BlockDrive",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Хранение ваших данных ME",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Блок, предназначенный для одной цели — хранения ячеек памяти. Этот блок вмещает 10 ячеек для хранения, поэтому вы можете плотно разместить свое хранилище в очень небольшом пространстве. На дисках ME отображается их содержимое и состояние ячеек памяти на передней панели.\n\nКрасный — указывает на то, что ячейка памяти заполнена.\nОранжевый — указывает на то, что ячейка хранения не может хранить больше типов, но может хранить больше предметов.\nЗеленый — указывает на то, что ячейка может содержать больше типов или больше элементов.\nЧерный — указывает на отсутствие канала или отсутствие питания.\n\nВажно отметить, что без сети ME этот блок ничего не делает. Это полезно только в сочетании со способом ввода и вывода элементов, и для его работы требуется мощность 2 AE/t, а также дополнительная мощность для каждой ячейки хранения, хранящейся внутри нее.\n\nО приоритете: многие устройства в AE2 имеют настройку приоритета, которая определяет, какие элементы будут получаться первыми. В некоторых ситуациях это полезно, но не очень в других. Большее число \u003d более высокий приоритет."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "appliedenergistics2:tile.BlockDrive",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 16,
+          "Damage:2": 11085,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 16,
+          "Damage:2": 11028,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 37,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

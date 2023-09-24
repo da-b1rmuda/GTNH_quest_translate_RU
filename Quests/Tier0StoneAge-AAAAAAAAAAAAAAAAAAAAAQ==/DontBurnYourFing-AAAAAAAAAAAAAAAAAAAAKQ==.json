@@ -1,0 +1,127 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 43
+    }
+  },
+  "questIDLow:4": 41,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "dreamcraft:item.OvenGlove",
+        "Count:3": 1,
+        "tag:10": {
+          "Durability:4": 1000
+        },
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§2§lНе обожгите пальцы!",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Вы решили, что пора приготовить вкусную пиццу, но сильно обожгли пальцы. Читая древнюю кулинарную книгу, вы обнаружили пару магических предметов, позволяющих переносить в ведре что угодно горячее, даже лаву.\n\n§6§5Перчатки необходимо поместить в слоты для колец Baubles в Thaumcraft. Вам также необходимо поместить каждый в правильный слот. Если это неправильно, вы получите уведомление.\n\n§rДля защитного эффекта горячий предмет должен находиться в вашем активном слоте. Интересно, есть ли какой-нибудь способ носить с собой больше, чем несколько ведер за раз?"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:leather",
+          "Count:3": 6,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "minecraft:string",
+          "Count:3": 6,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "harvestcraft:wovencottonItem",
+          "Count:3": 6,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "allowCraftedFromStatistics:1": 0,
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "allowCraft:1": 1,
+      "allowAnvil:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.OvenGlove",
+          "Count:3": 1,
+          "tag:10": {
+            "Durability:3": 1000
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.OvenGlove",
+          "Count:3": 1,
+          "tag:10": {
+            "Durability:3": 1000
+          },
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:crafting"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "IguanaTweaksTConstruct:clayBucketFired",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnician",
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

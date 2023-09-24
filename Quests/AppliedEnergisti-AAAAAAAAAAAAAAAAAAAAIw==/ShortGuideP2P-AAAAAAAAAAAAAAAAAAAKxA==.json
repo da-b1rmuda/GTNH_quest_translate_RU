@@ -1,0 +1,80 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 203
+    }
+  },
+  "questIDLow:4": 2756,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "appliedenergistics2:item.ItemMultiPart",
+        "Count:3": 1,
+        "Damage:2": 460,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Краткое руководство – P2P",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Это одна из самых сложных частей AE2. Вам нужно это понять, чтобы действительно чего-то добиться с модом. Сначала замените советник на ME-контроллер. Теперь у вас есть еще несколько каналов для работы. Поместите шину P2P напротив одной из сторон, а затем подключите к ней несколько кабелей немного дальше. Обязательно подавайте питание на этот кабель с помощью EA или кварцевого волокна, но НЕ обычного кабеля, теперь это отдельная сеть, и это отменит это. Подключите вторую шину P2P к другому концу, а затем отсоедините от нее как минимум 1 плотный кабель. Удерживая клавишу Shift, щелкните правой кнопкой мыши первую шину P2P, затем щелкните правой кнопкой мыши вторую. Теперь они подключены, и в вашей подсети используются 2 канала, в то время как у вас есть все 32 канала со стороны вашего контроллера. Для каждой подсети, в которой нет контроллера ME, вы можете отправить 4 стороны или 128 каналов. Я уверен, вы понимаете, насколько это полезно, верно?\n\nОб AE2 нужно многое понять, но вам, вероятно, следует либо поэкспериментировать, либо прочитать квесты, либо посмотреть видео, чтобы получить больше информации, чем просто основы."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "appliedenergistics2:tile.BlockController",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "appliedenergistics2:item.ItemMultiPart",
+          "Count:3": 2,
+          "Damage:2": 460,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "appliedenergistics2:item.ItemMultiPart",
+          "Count:3": 1,
+          "Damage:2": 140,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "appliedenergistics2:item.ItemMultiPart",
+          "Count:3": 1,
+          "Damage:2": 76,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "appliedenergistics2:item.ToolMemoryCard",
+          "Count:3": 1,
+          "tag:10": {},
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

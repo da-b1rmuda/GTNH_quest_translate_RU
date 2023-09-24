@@ -1,0 +1,47 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2610
+    }
+  },
+  "questIDLow:4": 375,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metaitem.01",
+        "Count:3": 1,
+        "tag:10": {
+          "GT.ItemCharge:4": 1000000000
+        },
+        "Damage:2": 32599,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Сила, столько Силы!",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Если бы я только мог его использовать... Ну, здравствуй, друг мой. Мне нужна ваша помощь с моим проектом. Я хочу создать огромный источник энергии, но у меня есть несколько проблем, которые мне нужно решить в первую очередь. Ты мне поможешь? Вы будете хорошо вознаграждены.\n\n§3Квесты по получению предметов активируют следующую часть, как только вы получите нужный предмет."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

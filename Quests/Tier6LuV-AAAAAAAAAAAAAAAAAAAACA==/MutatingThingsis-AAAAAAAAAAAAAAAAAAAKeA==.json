@@ -1,0 +1,156 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2561
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2609
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2566
+    },
+    "3:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1687
+    },
+    "4:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1469
+    }
+  },
+  "questIDLow:4": 2680,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metaitem.98",
+        "Count:3": 1,
+        "Damage:2": 2,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§c§lМутировать — это круто",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "При изготовлении необработанных кристаллических чипсов у вас есть два других варианта, если постоянное использование европия слишком дорого для вас: бактериальный ил и мутаген.\n\nМутаген, очевидно, лучше, чем ил, но как его получить? Я научу тебя, как это сделать.\n\nСначала возьмите бактериальную грязь, которую вы получили с Марса, и пропустите ее через пивоварню вместе с небольшим количеством U-238, чтобы получить обогащенную бактериальную грязь. Затем ферментируйте его, чтобы получить FermentedBacterialSludge. И, наконец, вы перегоняете его, чтобы получить Мутаген.\n\nНо хватит ли вам одного ведра? Едва ли! Но теперь, когда они у нас есть, мы можем сделать больше с чаном. Используйте мутаген, который у вас есть, и немного таинственной кристальной пыли, чтобы создать культуру. К сожалению, шансы довольно низкие, поэтому вам почти наверняка придется сделать это несколько раз.\n\nКак только у вас появится культура, вы сможете снова использовать ее в чане вместе с частью пыли, чтобы получить больше. Вам понадобится стекло LuV-уровня и плутониевые стержни.\n\nЕсли вы хотите легче получить больше бактериальной пены, вы можете сделать это с помощью чана! Культуру сделать гораздо проще.\n\n§3Мутаген также используется для гениндустрии, поэтому, если вы хотите это сделать, составьте связку."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.98",
+          "Count:3": 105,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 140,
+          "Damage:2": 2098,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.98",
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 16,
+          "Damage:2": 2398,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "bartworks:BioLabParts",
+          "Count:3": 1,
+          "tag:10": {
+            "Plasmid:10": {
+              "Rarity:1": 3,
+              "Tier:3": 2,
+              "Name:8": "Mutagen",
+              "Chance:3": 1500
+            },
+            "DNA:10": {
+              "Rarity:1": 3,
+              "Tier:3": 2,
+              "Name:8": "Mutagen",
+              "Chance:3": 1500
+            },
+            "Breedable:1": 0,
+            "Color:11": [
+              29,
+              149,
+              50
+            ],
+            "Rarety:1": 3,
+            "Name:8": "Mutagen Bacteria a Spatio"
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "3:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 3,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.98",
+          "Count:3": 10,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

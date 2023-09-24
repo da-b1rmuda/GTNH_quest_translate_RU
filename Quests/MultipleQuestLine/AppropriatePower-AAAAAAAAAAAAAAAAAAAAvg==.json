@@ -1,0 +1,88 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 176
+    }
+  },
+  "questIDLow:4": 190,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "IC2:blockGenerator",
+        "Count:3": 1,
+        "Damage:2": 5,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§a§lСоответствующая мощность",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Независимо от того, использовали ли вы до сих пор для получения энергии магию, пар, нефть или биогаз, по мере продвижения на более высокие уровни вы столкнетесь с проблемами. Таким образом, вам необходимо модернизировать свою электросеть, по крайней мере, для ваших EBF. Итак, давайте начнем с чего-то более мощного: ядерного реактора!\n\nЕсли вы хотите узнать, как они работают, посетите Интернет или Reactor Planner по адресу §1§n[url]https://github.com/MauveCloud/Ic2ExpReactorPlanner/releases[/url]§r\n\nПримечание. В этом пакете множитель ЕС установлен в 10 раз. Это означает, что ваш ядерный реактор в 10 раз эффективнее. Обязательно установите планировщик в режим GTNH в разделе «Дополнительно». Кроме того, базовые номера (до 10xing) можно увидеть при наведении курсора на все компоненты.\n\nЕсли вы просто хотите их использовать, перейдите к §1§n[url]https://gtnh.miraheze.org/wiki/Nuclear_Reactors[/url]§r для конструкций реакторов. Thorium 1920 EU, пожалуй, лучший на данный момент."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "IC2:blockGenerator",
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "IC2:itemFuelRod",
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "IC2NuclearControl:blockNuclearControlMain",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianII",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 860
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1245
+    }
+  },
+  "questIDLow:4": 1905,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 1154,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§6§lБольшой теплообменник — последний от Ферма",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Большой теплообменник — это генераторная установка, которая принимает непрямое топливо и не вырабатывает ЕС. Тогда для чего это нужно? §7§7§7Нагреть воду горячими жидкостями, вот что!§r§r§r\n\nПо сути, это паровой котел, в котором вместо твердых веществ используются жидкости, но он более сложен. Двумя основными источниками энергии здесь являются лава и горячая охлаждающая жидкость, причем второй более мощный, но его труднее добыть. Лаву можно автоматизировать с помощью Everburn Urns или множества других вариантов, в то время как Hot Coolant обычно требует правильной настройки энергогенератора.\n\nЧто касается лавы, то LHE будет выдавать §d§d§d160 л пара на каждый 1 л лавы, до 1000 л/с ввода лавы§r§r§r (§a§a§a4000 EU/t§r §r§r при 100% КПД турбины). Для горячего хладагента LHE будет выдавать §d§d§d400 л пара на каждый 1 л горячего хладагента, до 800 л/с на входе§r§r§r (§a§a§a8000 EU/t§ r§r§r при 100% КПД турбины).\n\n§c§c§cЕсли вы превысите эти входные скорости, на выходе будет перегретый пар, который должен пройти через большую паровую турбину ВД перед обычной большой паровой турбиной.§r§r§r Максимальная скорость ввода здесь в два раза превышает как было раньше, преобразование §d§d§d1:80 для лавы§r§r§r и §d§d§d1:200 для горячего теплоносителя§r§r§r, а выход энергии при 100% турбине эффективность равна §a§a§a12000 EU/t§r§r§r для лавы и §a§a§a24000 EU/t§r§r§r для горячего охлаждающего агента.\n\n§6§lОчень мощный, но сложный и требует турбин!§r§r§r\n\n§3Для получения дополнительной информации перейдите на §1§n[url]https://tinyurl.com/GTNH-LHE[/url]§r§3 и прочитайте об этом там или на §1§n[url]https: //gtnh.miraheze.org/wiki/Fluid_Reactor[/url]§r §3, чтобы узнать, как использовать его в настройке Fluid Reactor."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 1154,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockcasings4",
+          "Count:3": 20,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockcasings2",
+          "Count:3": 2,
+          "Damage:2": 14,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 2,
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "lvl:2": 3,
+                "id:2": 35
+              }
+            }
+          },
+          "Damage:2": 7,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

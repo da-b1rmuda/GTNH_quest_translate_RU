@@ -1,0 +1,88 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2993
+    }
+  },
+  "questIDLow:4": 2994,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metaitem.01",
+        "Count:3": 1,
+        "Damage:2": 30677,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Ранний этилен",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "В LV крекинг топлива возможен только в химическом реакторе, эффективность которого ниже, чем у мультиблока Oil Cracker, доступного в HV. Тем не менее, он по-прежнему является отличным источником некоторых жидкостей, одной из которых является этилен, предшественник полиэтилена, первого пластика, который можно производить, и необходимой части прогресса в упаковке. Чтобы получить этилен из нефти, лучший способ — подвергнуть паровому крекингу нефтеперерабатывающий газ.\n\nПросто поместите нефтезаводской газ и пар в химический реактор с правильным контуром (проверьте NEI), а затем перегоните крекированный нефтезаводской газ. Он может дать много разных результатов, поэтому убедитесь, что вы выбрали правильный. После этого вы успешно переработаете нефть как для получения энергии, так и для побочных продуктов. Поздравляем!"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 2,
+          "Damage:2": 30677,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "lvl:2": 3,
+                "id:2": 35
+              }
+            }
+          },
+          "Damage:2": 4,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianI",
+          "Count:3": 20,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "dreamcraft:item.CoinChemistI",
+          "Count:3": 20,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

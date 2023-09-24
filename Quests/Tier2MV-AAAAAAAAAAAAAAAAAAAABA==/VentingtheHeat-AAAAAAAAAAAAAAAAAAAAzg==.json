@@ -1,0 +1,72 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3073
+    }
+  },
+  "questIDLow:4": 206,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "IC2:reactorVent",
+        "Count:3": 1,
+        "tag:10": {},
+        "Damage:2": 1,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§6§lСброс тепла",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Низкотехнологичный метод охлаждения горячей охлаждающей жидкости — использование вентиляционных крышек. Просто наденьте крышку на любой блок GregTech, который может содержать охлаждающую жидкость IC2, и поместите воду спереди. Самым простым может быть резервуар или труба. Это поможет, пока у вас не будет доступа к большому теплообменнику или вакуумной морозильной камере.\n\nУсовершенствованный или разогнанный вентиль реактора работает намного быстрее, чем базовый теплоотвод, но вы пока не можете его сделать. Эти крышки также работают с подачей воздуха спереди, но для основного теплоотвода спереди требуется водяной блок. Очевидно, что все вентиляционные крышки работают быстрее, если впереди находится вода, чем только воздух."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "IC2:reactorVent",
+          "Count:3": 1,
+          "tag:10": {},
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

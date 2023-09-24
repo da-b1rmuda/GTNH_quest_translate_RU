@@ -1,0 +1,96 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 176
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 962
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 169
+    }
+  },
+  "questIDLow:4": 373,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 14201,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§6§lПромышленная мафиозная ферма",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "§6§lExtreme Extermination Chamber§r — это ваш новый и §lлучший§r спаунер/измельчитель§r. С его помощью вы не только сможете получать дропы без каких-либо §lTPS§r проблем, но также со стилем и §extreme§r эффективностью.\n\nКонечно, это зависит от качества вашего меча, урон и добыча — единственные важные характеристики (оружие не является обязательным, поскольку структура требует шипов, и если вы хотите его использовать, вам нужно добавить к структуре входную шину §cULV§r).\n\nЕсли вам не нравятся обычные дропы, вы можете построить ритуал магии крови «Колодец страданий» поверх мультиблока (вы все равно получаете предметы, но с очень медленной скоростью).\nТакже генерирует жидкий опыт (всегда 120 л) и может порождать инфернальных мобов, если это возможно (использует мощность x8 при каждом появлении адских существ, поэтому вам нужно принять во внимание, что потребление энергии время от времени будет резко возрастать, так что будьте к этому готовы!).\n\n§lПримечания:§r\nВ случае каких-либо проблем с мультиблоковой анимацией просто отключите ее паяльником на машине."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 14201,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinSurvivorII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "kubatech:kubaitems",
+          "Count:3": 1,
+          "Damage:2": 8,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2415
+    }
+  },
+  "questIDLow:4": 2416,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gadomancy:ItemCreativeNode",
+        "Count:3": 1,
+        "Damage:2": 5,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Изменение биома гетто",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Если вы не хотите менять биом на определенный, а просто хотите нейтральную среду для своих пчел, возможно, вам подойдет использование узлов. Вы можете попробовать посадить саженец Серебряного дерева, чтобы получить его с чистым узлом, или использовать другие методы для его перемещения.\n\nИмейте в виду, что «голый» чистый узел ничего не изменит, если у него нет Victus. Вы можете попробовать использовать Sinister или Tainted, но... возврат средств невозможен. Эти узлы имеют радиус 11. Чтобы изменить биом обратно, используйте Ethereal Bloom (радиус 7). Имейте в виду, что и Печ, и Огоньки появляются в биомах «магического» типа."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

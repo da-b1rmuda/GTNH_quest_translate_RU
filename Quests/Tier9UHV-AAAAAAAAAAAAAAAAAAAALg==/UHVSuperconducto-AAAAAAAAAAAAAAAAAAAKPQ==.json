@@ -1,0 +1,55 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2616
+    }
+  },
+  "questIDLow:4": 2621,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 64,
+        "Damage:2": 2020,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Сверхпроводники сверхвысокого напряжения (2 097 152 ЕС/т)",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Выше также располагаются провода UEV, UIV, UMV, UXV и MAX. У УЭВ есть даже сверхпроводники. Вы можете использовать сверхпроводники сверхвысокого напряжения или супердешевый материал и принять некоторые потери для передачи энергии. Помимо других вариантов, таких как отправка его через туннель AE или повторное подачу электроэнергии на объект.\n\nЧто, сверхпроводник сверхвысокого напряжения? Разве ты этого еще не сделал?\n\nЕсли вы забыли, при использовании EBF вы получаете регулировку нагрева в зависимости от уровня энергопотребления. Таким образом, вы можете выплавить базовый слиток сверхвысокого напряжения с помощью флюсованных катушек и ультрафиолетовой энергии, так как тогда вы получите 10501K. И нет, вы не можете использовать Вулкан."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 24,
+          "Damage:2": 2020,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

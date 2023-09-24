@@ -1,0 +1,537 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1106
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 986
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1102
+    }
+  },
+  "questIDLow:4": 1105,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ExtraUtilities:divisionSigil",
+        "Count:3": 1,
+        "tag:10": {
+          "stable:4": 1
+        },
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Символ конюшни дивизии",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Второй ритуал будет не таким простым, как первый. После этого ритуала ваш символ станет достаточно стабильным, чтобы создавать стабильные нестабильные слитки, которые не взорвутся и больше не будут получать урон по прочности.\n\nЭтот ритуал необходимо проводить в измерении Конец. Ритуал выполняется путем размещения Маяка в центре ровной площадки размером не менее 11х11, не обязательно Краевого Камня. Затем поместите по сундуку в каждом из основных направлений, оставив 4 пустых места между сундуком и Маяком. В каждый сундук вставьте следующее содержимое:\n\nСевер: железный слиток, золотой слиток и другие вещи, указанные в задании.\nЮг: различные рудные блоки и другие предметы, перечисленные в задании.\nВосток: Зелья.\nВест: Музыкальные диски.\n\nЗатем вокруг маяка выкладывается спиральный узор из красного камня и нити. В любой момент, удерживая клавишу Shift, щелкнув правой кнопкой мыши по Маяку с активированным знаком разделения в руке, вы увидите прогресс построения ритуала.\n\nНаконец, убейте Железного голема, пока он находится в зоне ритуала, чтобы активировать процесс. Если это сработает, произойдет взрыв, который уничтожит маяк и сундуки, а все жители Края в Крае исчезнут. Во время ритуала толпы агрессивных мобов, пропитанных Ускорением, начнут появляться и атаковать игрока, которому нужно убить 100 из них, чтобы завершить ритуал. Если Игрок умрет или покинет измерение, ритуал потерпит неудачу и его придется начинать заново. Как только будет убито достаточное количество мобов, первый активированный Сигил в инвентаре стабилизируется. Символ псевдоинверсии можно использовать неограниченное количество раз, а разделение железного слитка на алмаз приведет к созданию «нестабильного-стабильного» слитка Мебиуса, который не взрывается, может быть изготовлен в любом интерфейсе крафта и суммируется до 64."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:beacon",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:chest",
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "minecraft:redstone",
+          "Count:3": 40,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "minecraft:string",
+          "Count:3": 40,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:cooked_porkchop",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "minecraft:cooked_fished",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "minecraft:cooked_beef",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "minecraft:cooked_chicken",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "minecraft:dye",
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "minecraft:baked_potato",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "6:10": {
+          "id:8": "minecraft:coal",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "7:10": {
+          "id:8": "minecraft:iron_ingot",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "8:10": {
+          "id:8": "minecraft:gold_ingot",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "9:10": {
+          "id:8": "minecraft:stone",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "10:10": {
+          "id:8": "minecraft:glass",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "11:10": {
+          "id:8": "minecraft:hardened_clay",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "3:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 3,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:dirt",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "minecraft:sand",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "minecraft:grass",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "minecraft:gravel",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "minecraft:clay",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "minecraft:obsidian",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "6:10": {
+          "id:8": "minecraft:coal_ore",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "7:10": {
+          "id:8": "minecraft:iron_ore",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "8:10": {
+          "id:8": "minecraft:gold_ore",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "9:10": {
+          "id:8": "minecraft:redstone_ore",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "10:10": {
+          "id:8": "minecraft:lapis_ore",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "11:10": {
+          "id:8": "minecraft:emerald_ore",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "4:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 4,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:record_cat",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "minecraft:record_blocks",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "minecraft:record_chirp",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "minecraft:record_far",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "minecraft:record_mall",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "minecraft:record_mellohi",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "6:10": {
+          "id:8": "minecraft:record_stal",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "7:10": {
+          "id:8": "minecraft:record_strad",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "8:10": {
+          "id:8": "minecraft:record_ward",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "9:10": {
+          "id:8": "minecraft:record_11",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "10:10": {
+          "id:8": "minecraft:record_wait",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "11:10": {
+          "id:8": "minecraft:record_13",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "5:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 5,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:potion",
+          "Count:3": 1,
+          "Damage:2": 8199,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "minecraft:potion",
+          "Count:3": 1,
+          "Damage:2": 8200,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "minecraft:potion",
+          "Count:3": 1,
+          "Damage:2": 8201,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "minecraft:potion",
+          "Count:3": 1,
+          "Damage:2": 8202,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "minecraft:potion",
+          "Count:3": 1,
+          "Damage:2": 8198,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "minecraft:potion",
+          "Count:3": 1,
+          "Damage:2": 8203,
+          "OreDict:8": ""
+        },
+        "6:10": {
+          "id:8": "minecraft:potion",
+          "Count:3": 1,
+          "Damage:2": 8193,
+          "OreDict:8": ""
+        },
+        "7:10": {
+          "id:8": "minecraft:potion",
+          "Count:3": 1,
+          "Damage:2": 8194,
+          "OreDict:8": ""
+        },
+        "8:10": {
+          "id:8": "minecraft:potion",
+          "Count:3": 1,
+          "Damage:2": 8195,
+          "OreDict:8": ""
+        },
+        "9:10": {
+          "id:8": "minecraft:potion",
+          "Count:3": 1,
+          "Damage:2": 8196,
+          "OreDict:8": ""
+        },
+        "10:10": {
+          "id:8": "minecraft:potion",
+          "Count:3": 1,
+          "Damage:2": 8197,
+          "OreDict:8": ""
+        },
+        "11:10": {
+          "id:8": "minecraft:potion",
+          "Count:3": 1,
+          "Damage:2": 8205,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "6:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 6,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:pumpkin",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "minecraft:iron_block",
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "7:10": {
+      "visible:1": 0,
+      "invert:1": 0,
+      "range:3": -1,
+      "index:3": 7,
+      "structure:8": "",
+      "hideInfo:1": 0,
+      "posX:3": 0,
+      "posY:3": 0,
+      "posZ:3": 0,
+      "biome:3": -1,
+      "name:8": "The END",
+      "dimension:3": 1,
+      "taxiCabDist:1": 0,
+      "taskID:8": "bq_standard:location"
+    },
+    "8:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 8,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ExtraUtilities:divisionSigil",
+          "Count:3": 1,
+          "tag:10": {
+            "stable:4": 1
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:beacon",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 11,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "Thaumcraft:ItemLootBag",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinSurvivorII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

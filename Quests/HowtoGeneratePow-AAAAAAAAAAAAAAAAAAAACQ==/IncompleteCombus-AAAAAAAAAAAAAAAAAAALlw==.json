@@ -1,0 +1,115 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1493
+    }
+  },
+  "questIDLow:4": 2967,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 32001,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Неполное сгорание",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Двигатель на химическом топливе для LuV? Что ж, если вы сумасшедший поклонник дизельного топлива или бензина, вам это понравится.\n\nЭтот двигатель принимает все дизельное, газовое, а также ракетное топливо, хотя Rocketdyne сжигает последнее более эффективно. Для поддержания работы ему также необходим активатор горения.\n\nЭтот двигатель расходует все топливо и активатор сгорания во входных люках за секунду и выдает мощность в зависимости от количества израсходованного топлива и его топливной ценности.\n\nЕго эффективность определяется соотношением промотор горения/топливо. Если соотношение больше (больше промотора), эффективность будет выше. Максимальная эффективность составляет 150%, но вы не сможете достичь этого значения, не вводя бесконечное количество промотора. Ожидайте эффективности около 130% для топлива с высокой топливной ценностью, такого как высокооктановый бензин, если только вы не потратите МНОГО промотора.\n\nнапример Вы вводите 100 МБ/с HOG и 1000 МБ/с промотора горения. КПД составляет 149%, а сумма стоимости топлива HOG составляет 250 000 ЕС. Выходная мощность составит 250 000 * 149%/20 \u003d 18625 ЕЭ/т."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockcasings2",
+          "Count:3": 14,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockcasings4",
+          "Count:3": 93,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.blockcasings2",
+          "Count:3": 14,
+          "Damage:2": 14,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.blockcasings4",
+          "Count:3": 14,
+          "Damage:2": 13,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "GoodGenerator:titaniumPlatedCylinder",
+          "Count:3": 14,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 32001,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 32,
+          "Damage:2": 30998,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.98",
+          "Count:3": 32,
+          "Damage:2": 14,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

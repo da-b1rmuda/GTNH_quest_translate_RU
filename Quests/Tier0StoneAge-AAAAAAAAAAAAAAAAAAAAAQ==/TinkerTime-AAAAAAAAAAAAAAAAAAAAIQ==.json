@@ -1,0 +1,107 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 32
+    }
+  },
+  "questIDLow:4": 33,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "TConstruct:ToolStationBlock",
+        "Count:3": 1,
+        "Damage:2": 1,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§2§lТинкер-Время",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 1,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Хотя использование кремневых инструментов доставляет удовольствие с точки зрения убийства свиней и коров, они недолговечны и не подлежат ремонту. Плюс инферналы смеются над вашими попытками их убить. Вы узнали, как создавать инструменты, которые можно ремонтировать и улучшать, но для этого вам определенно понадобится более совершенная техника изготовления.\n\nЕсли для изготовления столов вам нужно использовать древесину, отличную от дуба, вы можете преобразовать их в дубовую древесину по умолчанию, чтобы выполнить этот квест."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "allowCraftedFromStatistics:1": 0,
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "allowCraft:1": 1,
+      "allowAnvil:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "TConstruct:ToolStationBlock",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "TConstruct:ToolStationBlock",
+          "Count:3": 1,
+          "Damage:2": 10,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "TConstruct:ToolStationBlock",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "TConstruct:ToolStationBlock",
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:crafting"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "TConstruct:blankPattern",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "TConstruct:manualBook",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnician",
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

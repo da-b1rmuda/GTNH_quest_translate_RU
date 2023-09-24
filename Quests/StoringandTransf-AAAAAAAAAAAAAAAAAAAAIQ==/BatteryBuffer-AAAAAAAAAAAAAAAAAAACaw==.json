@@ -1,0 +1,98 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 611
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 612
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 613
+    },
+    "3:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 614
+    },
+    "4:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 615
+    }
+  },
+  "questIDLow:4": 619,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 161,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "OR",
+      "repeat_relative:1": 1,
+"name:8": "Буфер батареи",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Батареи в аккумуляторном буфере работают практически так же, как и в аккумуляторном отсеке обычной машины. Буферы батареи используются для буферизации мощности и стабилизации выходной мощности.\n\nОни бывают разных размеров: на 1, 4, 9(!) и 16 слотов. Они могут потреблять 2 А и выдавать 1 А на каждую вставленную батарею — следите за силой тока в проводе! Кабели бывают 1x, 2x, 4x, 8x, 12x и 16x, с оловянной передачей тока 1 А каждого размера. Будьте осторожны, иначе ваш кабель расплавится, что приведет к возгоранию и, возможно, взрыву.\n\nПомните, что при выводе EU с любой машины GT происходят потери, поэтому установка 4 4-слотовых машин подряд приводит к потере 8 мощности по сравнению с 2 от 1 16-слотовой машины. И это тоже для каждого усилителя.\n\n§3Вы можете импортировать батареи в один, но из него можно экспортировать ТОЛЬКО пустые кислотные батареи. Нет, этого не обойти."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 171,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianI",
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

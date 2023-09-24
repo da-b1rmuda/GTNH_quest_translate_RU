@@ -1,0 +1,95 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2535
+    }
+  },
+  "questIDLow:4": 2536,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "appliedenergistics2:tile.BlockQuantumRing",
+        "Count:3": 64,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Квантовое соединение ваших аванпостов",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Квантовый сетевой мост позволяет вам подключать отдаленные места к вашей основной сети AE, даже в других измерениях. Таким образом, вы можете засунуть это загрязнение, производящее Mega EBF, в Пустоту, где оно и должно быть, но при этом использовать его, не выходя из безопасности своей основной базы. Чтобы создать это, вам понадобится Камера квантовой связи, окруженная квантовыми кольцами. Затем поместите квантовую запутанную сингулярность в соединительную камеру и подключитесь к одному из 4 квантовых колец вокруг нее с помощью флюикс-кабеля. Они стоят 1000EU/t за каждую пару.\n\nВы можете подать питание на другую сторону с первой, но сначала вам нужно запустить ее, поэтому при установке возьмите с собой энергетический элемент. Помните, что это часть одной сети, поэтому у вас может быть только один контроллер, и вы по-прежнему ограничены каналами кабеля, к которому вы подключены, поэтому вы можете использовать туннель P2P для передачи большего количества данных.\n\nЕсли вы используете несколько, вы можете переименовать QES."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "appliedenergistics2:tile.BlockQuantumLinkChamber",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "appliedenergistics2:tile.BlockQuantumRing",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial",
+          "Count:3": 2,
+          "tag:10": {
+            "freq:4": 158886313061902
+          },
+          "Damage:2": 48,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 38,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianII",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

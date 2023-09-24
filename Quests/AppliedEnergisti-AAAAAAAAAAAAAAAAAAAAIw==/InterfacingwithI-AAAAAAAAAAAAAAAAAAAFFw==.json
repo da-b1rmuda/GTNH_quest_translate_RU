@@ -1,0 +1,94 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1302
+    }
+  },
+  "questIDLow:4": 1303,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "appliedenergistics2:item.ItemMultiPart",
+        "Count:3": 1,
+        "Damage:2": 220,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Взаимодействие с инвентаризациями",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Шина хранения ME, подключенная к другому блоку инвентаря в мире, позволяет вам получить доступ к этому инвентарю через сетевые функции. Это позволяет вам использовать сундуки, бочки и другие типы хранилищ предметов в ваших сетях.\n\nХранение через шину хранения ME является двунаправленным, оно может как вставлять, так и извлекать элементы из инвентарного блока, к которому оно подключено, пока шина хранения ME имеет необходимый канал.\n\nПользовательский интерфейс позволяет вам контролировать, какие элементы выбираются в качестве сохраняемых. Этот выбор не влияет на то, какие элементы можно извлечь, когда они окажутся в хранилище.\n\nШина хранения будет работать практически с любым блоком инвентаря, включая интерфейсы ME, DSU Minefactory Reloaded, бочки факторизации, бочки JABBA и ящики Better Storage. Их также можно использовать для пассивной маршрутизации предметов в трубы Buildcraft.\n\nЕсли вы разместите шину хранения данных на интерфейсе ME, шина хранения сможет взаимодействовать со всем содержимым целевой сети, если только этот интерфейс не настроен на хранение элементов внутри себя, и в этом случае он будет видеть эти сохраненные элементы."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "appliedenergistics2:item.ItemMultiPart",
+          "Count:3": 4,
+          "Damage:2": 220,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 8,
+          "Damage:2": 11028,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 8,
+          "Damage:2": 11085,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 37,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

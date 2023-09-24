@@ -1,0 +1,46 @@
+{
+  "questIDHigh:4": -6107209725455154402,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2684
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 557
+    }
+  },
+  "questIDLow:4": -6913291740074859566,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 998,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "OR",
+      "repeat_relative:1": 1,
+"name:8": "Лучшее ракетное топливо",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Если вы хотите полететь дальше Марса, вам нужно лучшее ракетное топливо. С этого момента есть только один выбор. Химический завод является сердцем производства. Если у вас его еще нет, вам следует взглянуть на него. Он имеет 4 отдельных уровня системы и поначалу может показаться немного сложным, но есть книга Minecraft, которая расскажет вам все об этом. Также ознакомьтесь с квестом «Химический завод» во вкладке квестов GT.\n\n§4Не используйте предварительный просмотр NEI для химического завода, это неправильно."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

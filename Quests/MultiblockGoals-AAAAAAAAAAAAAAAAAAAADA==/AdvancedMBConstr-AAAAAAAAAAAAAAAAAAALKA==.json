@@ -1,0 +1,101 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 77
+    }
+  },
+  "questIDLow:4": 2856,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "structurelib:item.structurelib.constructableTrigger",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§6§lУсовершенствованная конструкция MB",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Возможность вращать МБ и просматривать голограмму структуры была позаимствована §r из §9Tec§1Tech§r, что дает вам большую свободу строить так, как вы хотите! §5 (по крайней мере, пока мы не ослабим совместное использование стен)§r\n\nВ отличие от ТТ, вы можете использовать для этого обычный гаечный ключ, просто цельтесь в центр передней части контроллера (или в одну из других сторон, если хотите. Вам просто нужно целиться в часть сетки с отметкой) и вправо. щелкните или щелкните правой кнопкой мыши, удерживая клавишу Shift. Первый вращает его по часовой стрелке, второй переворачивает. Если вы хотите изменить внешний вид самого контроллера, сделайте это обычным способом.\n\nИспользуйте проектор голограммы многоблочной структуры или MSHP, чтобы визуализировать структуру. Обратите внимание на детали структуры в левом нижнем углу. Для мультиблоков, которые принимают несколько типов многоуровневых компонентов или имеют переменный размер, количество MSHP, которые вы держите в руке, будет определять, какой уровень будет показан на голограмме.\n\n§3Если у вас его не получается, попробуйте вставить контроллер, вывернуть его и использовать на нем MSHP.§r\n\nХотя теперь можно построить боковой EBF или даже встроить его в пол, не все можно вращать. Исключения включают: LSC, воспламенитель древесного угля, BBF, DT, горняков, промышленную моечную установку, ферму по выращиванию водорослей, бактериальный чан, DEHP, MVF может, а MBF - нет.\n\n§3PS: Разрешение мы получили, это была всего лишь маленькая шутка."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "Damage:2": 16,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "structurelib:item.structurelib.constructableTrigger",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "GT.ToolStats:10": {
+              "PrimaryMaterial:8": "Cobalt",
+              "MaxDamage:4": 51200,
+              "SecondaryMaterial:8": "Cobalt"
+            }
+          },
+          "Damage:2": 16,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnician",
+          "Count:3": 25,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

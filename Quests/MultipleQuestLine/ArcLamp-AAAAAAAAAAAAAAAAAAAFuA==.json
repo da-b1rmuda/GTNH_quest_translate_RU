@@ -1,0 +1,117 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1454
+    }
+  },
+  "questIDLow:4": 1464,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "GalacticraftCore:tile.arclamp",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Дуговая лампа",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Дуговая лампа – очень яркая лампа. Он направленный – это означает, что свет, который он излучает, ярче в том направлении, в котором он смотрит. Его облицовку можно повернуть с помощью стандартного гаечного ключа.\n\nС учетом дуговой лампы яркость блоков, находящихся вблизи источников света, составляет:\n\nРедстоун Факел: 3-6\nФакел: 9-12\nБлок светящегося камня: 10-13\nДуговая лампа: 13-14\n\nДуговая лампа может осветить довольно большую площадь – например, всю комнату – при уровне освещенности 14: ее яркость почти такая же, как при полном солнечном свете.\n\nДуговая лампа также обладает интересным свойством активно отпугивать мобов. Его свет не только предотвращает появление мобов поблизости, но и настолько ярок, что если моб подойдет близко к дуговой лампе, он развернется и снова уйдет. Подтверждено, что этот эффект отпугивания мобов действует на: зомби, скелеты, криперы, развитые зомби, развитые скелеты, развитые криперы. Это также может работать на других типах мобов (требуется подтверждение). Но на Пауков (они тоже не боятся солнечного света) и боссов это не действует."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "GalacticraftMars:item.null",
+          "Count:3": 112,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "ProjRed|Illumination:projectred.illumination.lamp",
+          "Count:3": 16,
+          "Damage:2": 16,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "GalacticraftCore:tile.arclamp",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "GalacticraftMars:item.itemBasicAsteroids",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "GalacticraftMars:item.null",
+          "Count:3": 2,
+          "Damage:2": 3,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 8,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianII",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2613
+    }
+  },
+  "questIDLow:4": 2673,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Avaritia:Resource",
+        "Count:3": 1,
+        "Damage:2": 4,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Нейтроны из космоса",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Теперь давайте создадим космический нейтроний, материал, который используется во многих вещах в поздней игре.\nЦентрифугируйте черный плутоний, чтобы получить кучу нейтронов. Затем его можно сжать в самородки космического нейтрония в имплозивном компрессоре.\n\nСнова сожмите самородки, чтобы получить слиток космического нейтрония.\n\n§3 Нейтроний Аваритии и космический нейтроний GT используются вместе, это не то же самое, что обычный нейтроний GT. Если вы превратите его во что-нибудь, например в тарелку, он снова станет называться SpNt."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Avaritia:Resource",
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

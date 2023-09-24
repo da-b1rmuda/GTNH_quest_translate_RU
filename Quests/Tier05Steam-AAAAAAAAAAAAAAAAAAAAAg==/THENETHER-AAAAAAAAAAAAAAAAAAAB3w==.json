@@ -1,0 +1,206 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 478
+    }
+  },
+  "questIDLow:4": 479,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:portal",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§3§m§l§m§4§3§lНИЖЕ",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Теперь более опасно с более хардкорными адскими мобами. Веселитесь и берегите себя. Помните, что кремню и стали может потребоваться несколько раз, но есть и другие способы добыть огонь...\n\nОбязательно возьмите с собой крепкого компаньона, который поможет вам выжить. Если у вас нет друзей, почему бы сначала не сделать Железного голема и не протолкнуть его, или не взять с собой материалы для большего?\n\nКроме того, §lкогда§r вы умрете здесь, а не «если», из-за темноты в ваших могилах появятся скелеты. Обязательно освещайте области, где вы можете умереть, а при восстановлении могил освещайте область §lв первую очередь§r, чтобы не умирать снова и снова и не наводить беспорядок.\n\nОстерегайтесь некоторых мобов! Они получат минимальный урон от любого оружия, которое не является их слабостью. Так что, если вам кажется, что вы не причиняете большого вреда, то, скорее всего, это не так! Подумайте о других способах причинить вред/убить монстра."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:obsidian",
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "visible:1": 0,
+      "invert:1": 0,
+      "range:3": -1,
+      "index:3": 1,
+      "structure:8": "",
+      "hideInfo:1": 0,
+      "posX:3": 0,
+      "posY:3": 0,
+      "posZ:3": 0,
+      "biome:3": -1,
+      "name:8": "THE NETHER",
+      "dimension:3": -1,
+      "taxiCabDist:1": 0,
+      "taskID:8": "bq_standard:location"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Natura:natura.armor.imphelmet",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "lvl:4": 1,
+                "id:4": 0
+              },
+              "1:10": {
+                "lvl:4": 1,
+                "id:4": 1
+              }
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Natura:natura.armor.impjerkin",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "lvl:4": 1,
+                "id:4": 3
+              },
+              "1:10": {
+                "lvl:4": 1,
+                "id:4": 1
+              }
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "Natura:natura.armor.impleggings",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "lvl:4": 1,
+                "id:4": 4
+              },
+              "1:10": {
+                "lvl:4": 1,
+                "id:4": 1
+              }
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "Natura:natura.armor.impboots",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "lvl:4": 1,
+                "id:4": 2
+              },
+              "1:10": {
+                "lvl:4": 1,
+                "id:4": 1
+              }
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 1,
+      "choices:9": {
+        "0:10": {
+          "id:8": "minecraft:flint_and_steel",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "TConstruct:materials",
+          "Count:3": 1,
+          "Damage:2": 7,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "minecraft:spawn_egg",
+          "Count:3": 1,
+          "Damage:2": 99,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "minecraft:spawn_egg",
+          "Count:3": 1,
+          "Damage:2": 97,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "2:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 2,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinAdventure",
+          "Count:3": 15,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizard",
+          "Count:3": 15,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 581
+    }
+  },
+  "questIDLow:4": 2771,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Forestry:thermionicTubes",
+        "Count:3": 1,
+        "Damage:2": 13,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "U-238 Ту-подожди, серьёзно?",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Если вы хотите, чтобы культуры IC2 работали с мультифермой, теперь это вам нужно. Получите U-238 из тория, а глаза Эндерея — от ваших посевов, жителей деревни или обычным способом в HV. Он также ищет только 6 блоков выше блока структуры фермы, чтобы избежать задержек. Итак, прощай, складывание MF, ты всегда выглядел тупым и не имел никакого смысла.\n\nСамый большой размер поддерживает ~1100 обрезков, а наименьший — ~600, в зависимости от вашего макета, если вы используете его для обрезки IC2. Это связано с тем, что в этом режиме он будет искать посевы на расстоянии до 5 блоков дальше, чем обычно (по сторонам света он находится дальше по углам. Просто попробуйте, это сложно описать). Они того же размера, что и в предыдущих версиях, поэтому вам не нужно их перенастраивать."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Forestry:thermionicTubes",
+          "Count:3": 4,
+          "Damage:2": 13,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "Forestry:thermionicTubes",
+          "Count:3": 4,
+          "Damage:2": 13,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinForestryII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

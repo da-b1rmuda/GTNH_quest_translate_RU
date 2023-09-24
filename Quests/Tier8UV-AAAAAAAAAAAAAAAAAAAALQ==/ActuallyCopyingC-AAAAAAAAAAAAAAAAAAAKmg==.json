@@ -1,0 +1,140 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2713
+    }
+  },
+  "questIDLow:4": 2714,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "bartworks:BioLabModules",
+        "Count:3": 1,
+        "Damage:2": 4,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "На самом деле копирование культур",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Чтобы скопировать культуру, вам понадобится\n1) Стерилизованная чашка Петри.\n2) Плазматическая мембрана (изготовленная из стволовых клеток или полученная при приготовлении ферментного раствора)\n3) Стволовые клетки\n4) Сфера данных с соответствующими данными.\n5) Жидкая ДНК\n6) Биологическая лаборатория LuV\n7) Модуль клонального клеточного синтеза\n\nВы можете заменить Сферу Данных на сферу любой культуры, которую хотите скопировать. Имейте в виду, что, возможно, было бы проще создать вторую культуру обычным способом, и что обычно существует альтернативный рецепт, в котором используется производимая ею жидкость, чтобы получить ее с большей вероятностью.\n\nPS: Этот рецепт единственный в NEI, который использует этот модуль, поэтому если поискать, то его можно найти, но номер изменится, поэтому не могу указать на какой странице."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "bartworks:BioLabParts",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "bartworks:BioLabParts",
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.metaitem.03",
+          "Count:3": 2,
+          "Damage:2": 32073,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "tag:10": {
+            "mDataTitle:8": "DNA Sample",
+            "mDataName:8": "Escherichia koli"
+          },
+          "Damage:2": 32707,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "gregtech:gt.metaitem.98",
+          "Count:3": 8,
+          "Damage:2": 16,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "bartworks:BioLabModules",
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "bartworks:BioLabParts",
+          "Count:3": 1,
+          "tag:10": {
+            "Plasmid:10": {
+              "Rarity:1": 1,
+              "Tier:3": 0,
+              "Name:8": "Escherichia koli",
+              "Chance:3": 10000
+            },
+            "DNA:10": {
+              "Rarity:1": 1,
+              "Tier:3": 0,
+              "Name:8": "Escherichia koli",
+              "Chance:3": 10000
+            },
+            "Breedable:1": 1,
+            "Color:11": [
+              149,
+              132,
+              75
+            ],
+            "Fluid:8": "escherichiakolifluid",
+            "Rarety:1": 1,
+            "Name:8": "Escherichia koli"
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

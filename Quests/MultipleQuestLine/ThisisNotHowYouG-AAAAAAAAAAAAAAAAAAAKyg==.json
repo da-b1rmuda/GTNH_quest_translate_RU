@@ -1,0 +1,84 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1416
+    }
+  },
+  "questIDLow:4": 2762,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 996,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Это не то, как вы попадаете в космос",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Это производит энергию из ракетного топлива. Чтобы узнать, как их сделать, загляните во вкладку «Космические гонки». Это конкретно GT Rocket Fuels, и автоматизация их производства энергии в этом мультиплексе также обеспечит вас бесконечным топливом для ваших космических путешествий.\n\nМатематика относительно Rocketdyne сложна. Просмотр всплывающей подсказки контроллера помогает, но основная ее суть такова: дайте углекислый газ и убедитесь, что он не закончился, выберите EU/t, который вы хотите получить, рассчитайте необходимое количество топлива для топлива. вы будете использовать, а затем обеспечить достаточное количество жидкого водорода для повышения мультипитания в соответствии со значением EU/t.\n\nВы всегда захотите усилить Rocketdyne по нескольким причинам. Предполагая, что у вас есть хотя бы IV Dynamo Hatch с буферизацией, мощность, близкая к максимальной на этом люке, снизит топливную эффективность, но не в том случае, если она повышена. Кроме того, этот мульти потребляет топливо не постоянно, а с интервалом в 1 секунду между потреблением и не потреблением, при этом все равно вырабатывая мощность. Увеличение этого расхода приводит к огромной топливной эффективности в сочетании с высокой топливной ценностью ракетного топлива."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "miscutils:gtplusplus.blockcasings.3",
+          "Count:3": 8,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 8,
+          "Damage:2": 861,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "miscutils:gtplusplus.blockcasings.4",
+          "Count:3": 1,
+          "Damage:2": 11,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 996,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

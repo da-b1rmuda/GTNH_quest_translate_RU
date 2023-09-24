@@ -1,0 +1,106 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1429
+    }
+  },
+  "questIDLow:4": 1452,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "GalacticraftMars:tile.marsMachine",
+        "Count:3": 1,
+        "Damage:2": 8,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Запустить контроллер",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Контроллер запуска был изменен в GTNH для обеспечения дополнительных функций. Если вы запустите со стартовой панели с настроенным контроллером запуска, обратный отсчет будет значительно сокращен, и вы телепортируетесь непосредственно на принимающую стартовую панель. Однако он израсходует половину топлива ракеты. Это очень полезно на медленных серверах и может служить ранним вариантом телепортации, если вам не нравятся магические решения. Вам нужно будет установить стартовую площадку для ракет с контроллером запуска и, возможно, загрузчиком топлива с обеих сторон.\n\nЕсли вы не хотите использовать его для себя, вы также можете попробовать использовать его для грузовой ракеты. Чтобы использовать их на полную мощность, необходимо оборудовать стартовую площадку для отправки предметов:\n\nТопливный погрузчик\nЗапустить контроллер\nГрузовой погрузчик\nИ принимающая сторона с:\n\nТопливный погрузчик\nЗапустить контроллер\nГрузовой разгрузчик\n\nТакже можно использовать трубы Buildcraft для переноса предметов в грузовые погрузчики. Следующим шагом является настройка частот в обоих контроллерах запуска (т. е. установка: A для цели B, B для цели A). Посмотрите Launch Controller, чтобы настроить автоматический запуск. В первый раз вам придется щелкнуть правой кнопкой мыши по грузовой ракете и нажать «Запуск» в правом верхнем углу."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "GalacticraftCore:tile.fuelLoader",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "GalacticraftMars:tile.marsMachine",
+          "Count:3": 2,
+          "Damage:2": 8,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "GalacticraftCore:tile.landingPad",
+          "Count:3": 18,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "GalacticraftMars:item.null",
+          "Count:3": 4,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 16,
+          "Damage:2": 11316,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 7,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianII",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

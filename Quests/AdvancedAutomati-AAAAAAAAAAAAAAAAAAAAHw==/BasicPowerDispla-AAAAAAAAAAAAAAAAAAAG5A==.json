@@ -1,0 +1,78 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1763
+    }
+  },
+  "questIDLow:4": 1764,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metaitem.01",
+        "Count:3": 1,
+        "Damage:2": 32740,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Базовый дисплей мощности",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "В этой части мы научимся использовать наш адаптер, разместить его рядом, скажем, с буфером аккумулятора EBF и подключить его к компьютеру с помощью кабелей.\nТеперь давайте введем lua, находясь на компьютере, чтобы открыть среду LUA, в которой мы сможем тестировать вещи, не беспокоясь о сохранении и проверке нашей программы.\n\nВведите «comComponent.list()», это отобразит таблицу всех .list из компонента. Нам нужен gt_batterybuffer.\nЕсли поблизости слишком много вещей, они могут не отображаться, а способ поиска по всему списку компонентов слишком сложен для начала.\n\nИтак, теперь назначьте ему переменную; например «a \u003d компонент.gt_batterybuffer»; теперь мы можем вызвать «a», чтобы увидеть, какие методы есть у BatteryBuffer.\nВ этом примере мы будем использовать метод getBatteryCharge. Итак, введите «a.getBatteryCharge(1)», это вызовет метод getBatteryCharge из первого слота инвентаря в компоненте gt_batterybuffer.\n\nИтак, если мы используем аккумуляторный буфер 2x2; мы можем набрать что-то вроде: «для i\u003d1, 4 do print(a.getBatteryCharge(i)) end»\nПуф, теперь вы видите, что ценят все батареи ЕС. Что же мы можем с этим сделать?\n\nПопробуйте создать переменную с именем «batteryCharge \u003d 0», теперь выполните «for i\u003d1, 4 do BatteryCharge \u003d BatteryCharge a.getBatteryCharge(i) end»\n\nТеперь print(batteryCharge) отобразит общий заряд. Вот пример программы, в которой это используется.\n\nВставьте его в стример, введите «install» и следуйте инструкциям, чтобы установить его в C. Затем отредактируйте его, протестируйте, выясните, как он работает.\n\nПолагаю, на данный момент этого достаточно; поздравляю! Экспериментируйте и учитесь, и не забывайте как можно чаще проверять Google!\nЭта линия квестов будет снова обновлена \u200b\u200bв будущем; но я считаю, что на данный момент это хорошая конечная точка."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "OpenComputers:item",
+          "Count:3": 1,
+          "tag:10": {
+            "oc:data:10": {
+              "node:10": {
+                "address:8": "9147f798-ee2f-44da-b736-b6a30beed8da",
+                "visibility:4": 2,
+                "buffer:6": 0.0
+              },
+              "owners:9": {
+                "0:10": {
+                  "handles:9": {},
+                  "address:8": "9fbc465f-657a-437e-9f90-f18aaf9eb423"
+                }
+              },
+              "oc:fs.label:8": "PowerDisplay",
+              "fs:10": {
+                "output:9": {},
+                "input:9": {},
+                "capacity.used:4": 2045
+              }
+            }
+          },
+          "Damage:2": 4,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

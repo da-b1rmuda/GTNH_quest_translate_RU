@@ -1,0 +1,59 @@
+{
+  "questIDHigh:4": 7244653316249437730,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1412
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1493
+    }
+  },
+  "questIDLow:4": -5847927107856321162,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 13532,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Усовершенствованная сборочная линия",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Это усовершенствованная сборочная линия от §6GigaGram§rFab.\n\nОн поддерживает конвейерную обработку элементов. То есть он будет имитировать настоящую сборочную линию, потребляя ингредиенты один за другим, а не все сразу. По сути, он предлагает параллелизм вплоть до того, сколько входных элементов потребуется для этого рецепта. Вы можете думать о расширенной сборочной линии как о наборе фрагментов сборки. Каждый фрагмент сборки способен обрабатывать каждый шаг независимо от других фрагментов. Он начнет обработку, как только содержимое входной шины совпадет с любым сохраненным накопителем данных. Первый срез будет потреблять входные данные в шине."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 13532,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

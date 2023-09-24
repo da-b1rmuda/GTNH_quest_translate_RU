@@ -1,0 +1,128 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 88
+    }
+  },
+  "questIDLow:4": 103,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metaitem.01",
+        "Count:3": 1,
+        "Damage:2": 11019,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§5§lПодготовка к уровню 2, MV",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Чтобы двигаться вперед, вам нужно добыть алюминий. Много этого. Но на данный момент для выполнения этого квеста достаточно 8.\n\nВаш первый вариант — глиноземная пыль. Вероятно, лучшим источником глинозема является глина или затвердевшая глина из каньонов, однако для этого вам понадобится машина среднего напряжения, поэтому вам нужно найти альтернативу, пока у вас не будет достаточно пыли для первоначальной установки. На данный момент вы можете получить его, центрифугируя различные нечистые кучи из вашей руды или выплавляя рубин, сапфир или зеленый сапфир в EBF с углеродом. Проверьте квест EBF в Multiblock Goals.\n\nВам также понадобится ЭДФ для превращения глинозема в алюминиевые слитки. Для этого вам понадобится криолит. Для этого отправляйтесь в Сумеречный лес и найдите жилу Галены. Соответствующий квест «Свинец, галенит, серебро и криолит» находится на вкладке «Чародейство для новичков».\n\nВторой вариант — использовать алюминиевую пыль. Однако вы пока не можете это почувствовать напрямую, даже если у вас есть EBF. Это потребует более высокого уровня нагрева. На данный момент вам придется использовать плавильную печь Tinker's Smeltery или GT Compressor, чтобы превратить пыль в необработанный алюминий, который затем можно будет переплавить в слитки в EBF. Посмотрите квест уровня 0, чтобы узнать о некоторых вариантах получения пыли.\n\nК тому времени, как вы это завершите, вы, вероятно, закончите с большей частью вкладки, но вам все равно понадобятся Good Circuits (MV), чтобы фактически открыть следующий уровень, если вы еще этого не сделали.\n\nВы также можете проверить вкладки «Передвижение» и «Без смерти», чтобы найти новые разблокировки.\n\n§3Если вы исследовали Сумеречный лес до версии 2.1.1.4, вы не найдете криолита в существующих жилах. Вам нужно будет исследовать новые куски."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 20,
+          "Damage:2": 2697,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 10,
+          "Damage:2": 2699,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "TConstruct:materials",
+          "Count:3": 8,
+          "Damage:2": 12,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 8,
+          "Damage:2": 11019,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinSmithI",
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianI",
+          "Count:3": 3,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 36
+    }
+  },
+  "questIDLow:4": 666,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:boat",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Греби, греби, греби на своей лодке",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 1,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Вы живете недалеко от воды и у вас нет лодки? Мужик, соберись.\n\nДля его изготовления вам понадобятся деревянные доски, плиты и нож. (Это тоже квест с идентификатором 666, будьте осторожны, что-то происходит.)\n\n§3Мы в QuestBook, Inc. не гарантируем полезность лодок. Стандартное поколение мира не включает океаны, поэтому их полезность сильно ограничена. Рек много, но лошади были бы полезнее, если бы не сервер."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "allowCraftedFromStatistics:1": 0,
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "allowCraft:1": 1,
+      "allowAnvil:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:boat",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:crafting"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "minecraft:fishing_rod",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "minecraft:waterlily",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "harvestcraft:watergarden",
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinAdventure",
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinTechnician",
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1592
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1593
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1595
+    }
+  },
+  "questIDLow:4": 1584,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "witchery:ingredient",
+        "Count:3": 1,
+        "Damage:2": 96,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Отвар текущего духа",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Напиток текучего духа отражает суть мира духов в жидкой форме. Его можно сварить только в Мире Духов!\n\nОтвар можно бросить на землю, и жидкость выплеснется (блок источника позже можно будет подобрать в ведре). Нахождение в жидкости будет иметь незначительный лечебный эффект для большинства существ. Демонические существа или нежить будут ослаблены. Кошмары, стоящие в жидкости, потеряют эффект неуязвимости!\n\nНаличие лужи текущего духа рядом с Ткачом кошмаров снизит вероятность кошмара на 10 процентов для каждого исходного блока (до 3)."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "visible:1": 0,
+      "invert:1": 0,
+      "range:3": -1,
+      "index:3": 0,
+      "structure:8": "",
+      "hideInfo:1": 0,
+      "posX:3": 0,
+      "posY:3": 0,
+      "posZ:3": 0,
+      "biome:3": -1,
+      "name:8": "Spirit Dimension",
+      "dimension:3": 55,
+      "taxiCabDist:1": 0,
+      "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "witchery:ingredient",
+          "Count:3": 1,
+          "Damage:2": 100,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "witchery:spanishmoss",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "witchery:ingredient",
+          "Count:3": 1,
+          "Damage:2": 69,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "witchery:ingredient",
+          "Count:3": 1,
+          "Damage:2": 22,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "witchery:glintweed",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "witchery:ingredient",
+          "Count:3": 1,
+          "Damage:2": 24,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "witchery:ingredient",
+          "Count:3": 3,
+          "Damage:2": 96,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "witchery:somniancotton",
+          "Count:3": 32,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 55,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinWitchII",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinCookII",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardII",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

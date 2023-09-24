@@ -1,0 +1,153 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1137
+    }
+  },
+  "questIDLow:4": 1138,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "IC2:blockKineticGenerator",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§9§lКинетическая энергия ветра высокого напряжения",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Кинетический ветрогенератор генерирует энергию из энергии ветра, которая варьируется случайным образом, хотя некоторые факторы могут это изменить.\n\nВ отличие от ветряной мельницы, кинетический ветрогенератор потребует обслуживания в виде роторов. Они необходимы для запуска кинетического ветрогенератора.\nКак только ротор будет помещен в графический интерфейс, блоку будет выделено достаточно места, а текущий уровень ветра достаточен для текущего ротора, кинетический ветрогенератор начнет генерировать кинетическую энергию.\n\nЕго можно преобразовать в ЕС, используя кинетический генератор, прикрепленный к правильному лицу (черный круг).\n\nО ветре\nВо-первых, на силу ветра в конкретной местности влияют 3 фактора: высота, погода и случайность. Чем выше в мире вы находитесь, тем выше уровень ветра. Ниже y64 ветра никогда не бывает достаточно, и KWG вообще не будут работать. Погода также даст бонусы; Дождливая погода увеличит нормальный уровень ветра на 20%, а штормовая погода — на 50%. Последний фактор случайности заставляет силу ветра меняться случайным образом, однако диапазон изменений ограничен.\n\nСамый простой способ проверить текущий уровень ветра в определенной местности — использовать ветромер. Ветер самый сильный на отметке 160 иен, ближе к пределу сборки 255 иен ветер очень слабый, поэтому нет смысла пытаться запускать ветряные мельницы на такой высоте. Хоть это и неудобно, ветрогенератор может работать где угодно."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockcasings2",
+          "Count:3": 1,
+          "Damage:2": 3,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.02",
+          "Count:3": 4,
+          "Damage:2": 18306,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.metaitem.02",
+          "Count:3": 2,
+          "Damage:2": 20028,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "IC2:itemRecipePart",
+          "Count:3": 4,
+          "Damage:2": 12,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 2,
+          "Damage:2": 32704,
+          "OreDict:8": "circuitData"
+        },
+        "5:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 8,
+          "Damage:2": 18306,
+          "OreDict:8": ""
+        },
+        "6:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 2,
+          "Damage:2": 1646,
+          "OreDict:8": ""
+        },
+        "7:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 2,
+          "Damage:2": 32602,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "IC2:blockKineticGenerator",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "IC2:itemRecipePart",
+          "Count:3": 2,
+          "Damage:2": 12,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.metaitem.02",
+          "Count:3": 2,
+          "Damage:2": 21306,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

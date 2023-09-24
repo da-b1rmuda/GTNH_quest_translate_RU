@@ -1,0 +1,116 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 753
+    }
+  },
+  "questIDLow:4": 1494,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 1000,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§6§f§6§lНержавеющая сталь занимает слишком много времени?",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Время для второго EBF!\n\nВы можете делать слитки быстрее тремя способами: улучшить катушки, получить энергетические люки более высокого уровня или добавить больше печей. Вероятно, пришло время добавить в вашу базу второй EBF.\n\nУ мультиблочных машин могут быть общие кожухи, глушители и входные/выходные люки/шины, но не люки технического обслуживания (хотя можно использовать и автоматические). Вы можете использовать общие энергетические люки, но только если вы можете обеспечить достаточное количество энергии для всех машин, частью которых они являются. Таким образом, если у вас есть два EBF, которым нужна мощность среднего напряжения, и вы используете энергетический люк среднего напряжения, это не сработает, поскольку ни один из них не получит достаточно мощности. Это почти никогда не используется, так что не беспокойтесь об этом. Кроме того, если вы хотите поделиться входными данными на массивах обработки, отключите фильтрацию карты рецептов на шинах.\n\nПомните, что загрязнение будет очень высоким, если одновременно будут активны два EBF! Остерегайтесь сильного загрязнения. Используйте лучшие доступные глушители и не размещайте EBF на одном участке с сельскохозяйственными угодьями или другими машинами с высоким уровнем загрязнения, такими как пиролизные печи и большие котлы.\n\nВы можете использовать любые катушки, которые у вас есть, но, возможно, вы захотите начать поиск слюды, если вы ее еще не нашли."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 1000,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 92,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 2,
+          "Damage:2": 42,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 2,
+          "Damage:2": 32529,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 172,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianI",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

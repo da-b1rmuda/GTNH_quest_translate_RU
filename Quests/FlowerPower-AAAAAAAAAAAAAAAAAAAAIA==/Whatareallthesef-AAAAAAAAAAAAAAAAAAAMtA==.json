@@ -1,0 +1,145 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3223
+    }
+  },
+  "questIDLow:4": 3252,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Botania:manaResource",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Для чего вообще нужны все эти цветы?",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Если вы никогда раньше не использовали Botania, возможно, вас интересует цель всех этих усилий. На этот вопрос нелегко ответить, но одна вещь, которую вы можете сделать прямо сейчас, — это сделать себе немного манастали.\n\nСреди множества применений манасталь обладает одной из лучших, если не просто §othe§o §rлучшей, долговечностью среди материалов, доступных в LV, поэтому она идеально подходит для всех ваших инструментов для крафта.\n\nЕсли вам особенно не нравится Tinker's Construct, манасталь — отличный материал, из которого можно сделать кирку Gregtech."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Botania:manaResource",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "GT.ToolStats:10": {
+              "PrimaryMaterial:8": "Manasteel",
+              "MaxDamage:4": 512000,
+              "SecondaryMaterial:8": "Manasteel"
+            }
+          },
+          "Damage:2": 16,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "GT.ToolStats:10": {
+              "PrimaryMaterial:8": "Manasteel",
+              "MaxDamage:4": 512000,
+              "SecondaryMaterial:8": "Wood"
+            }
+          },
+          "Damage:2": 22,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "GT.ToolStats:10": {
+              "PrimaryMaterial:8": "Manasteel",
+              "MaxDamage:4": 512000,
+              "SecondaryMaterial:8": "Wood"
+            }
+          },
+          "Damage:2": 12,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "GT.ToolStats:10": {
+              "PrimaryMaterial:8": "Manasteel",
+              "MaxDamage:4": 512000,
+              "SecondaryMaterial:8": "Wood"
+            }
+          },
+          "Damage:2": 10,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "GT.ToolStats:10": {
+              "PrimaryMaterial:8": "Manasteel",
+              "MaxDamage:4": 512000,
+              "SecondaryMaterial:8": "Wood"
+            }
+          },
+          "Damage:2": 18,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinFlowerI",
+          "Count:3": 15,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Botania:manaResource",
+          "Count:3": 4,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

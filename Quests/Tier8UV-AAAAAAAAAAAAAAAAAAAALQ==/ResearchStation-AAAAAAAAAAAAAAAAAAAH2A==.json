@@ -1,0 +1,117 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2007
+    }
+  },
+  "questIDLow:4": 2008,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 15331,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Научно-исследовательская станция",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Теперь, когда вы начали собирать свой драгоценный квантовый компьютер, как насчет исследовательской станции? Еще раз, использование проектора голограммы мультиблочной структуры расскажет вам, как построить этот мультиблок. Под ним должно быть 3 пустых блока, чтобы вы могли видеть весь чертеж. Когда он будет почти собран, поместите энергетический люк, оптический ведомый разъем и люк обслуживания на задней стороне.\n\nПосле полной сборки вы можете приступить к работе с рецептами в любое время, пока квантовый компьютер также активен и подключен. Исследовательская станция требует, чтобы вы поместили предмет для исследования в держатель объектов, а затем на карту памяти в интерфейсе мультиблока. Как только вычисление будет полностью завершено, накопитель данных, на котором хранятся все данные завершенного элемента, окажется внутри многоблочного интерфейса.\n\nВсе еще в замешательстве? Хорошо, это дух обучения! Всегда обязательно проверяйте эти вещи в творческой одиночной игре, если хотите найти точные размеры и тому подобное. Не забывайте ВСЕГДА ЦВЕТИТЬ ОПТИЧЕСКИЕ ЛЮКИ И ВОЛОКНА!\n\n§3Обратите внимание, что для некоторых исследований требуется значительное количество усилителей, так что имейте это в виду.§r"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 15103,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 15440,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 15451,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "tectech:gt.blockcasingsTT",
+          "Count:3": 52,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "tectech:gt.blockcasingsTT",
+          "Count:3": 23,
+          "Damage:2": 3,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "tectech:gt.blockcasingsTT",
+          "Count:3": 14,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 15331,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "tectech:gt.blockcasingsTT",
+          "Count:3": 59,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

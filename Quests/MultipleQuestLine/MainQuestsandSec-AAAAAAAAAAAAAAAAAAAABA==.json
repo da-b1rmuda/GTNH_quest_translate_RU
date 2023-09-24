@@ -1,0 +1,63 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1204
+    }
+  },
+  "questIDLow:4": 4,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "questbook:ItemQuestBook",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§1§lОсновные и второстепенные квесты",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Теперь, когда вы зашли так далеко, вы можете заметить, как два новых квеста выглядят по-разному.\n\nКвест с зазубренными краями является основным квестом — он связан с другими основными квестами толстой линией. Вы должны выполнить основные квесты, чтобы разблокировать следующий уровень и добиться прогресса в целом. Если вы не можете прогрессировать, вернитесь на предыдущие уровни и найдите невыполненные основные квесты.\n\nДругой квест является дополнительным и не требуется для открытия новых уровней. Однако дополнительные квесты часто знакомят вас с полезными предметами или процессами.\n\nДля чего нужны монеты? Их можно использовать для покупки вещей во вкладке «Монеты».\n\nЕсли вы начали в плохом биоме, здесь достаточно монет, чтобы купить саженцы."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:cooked_beef",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinForestry",
+          "Count:3": 5,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

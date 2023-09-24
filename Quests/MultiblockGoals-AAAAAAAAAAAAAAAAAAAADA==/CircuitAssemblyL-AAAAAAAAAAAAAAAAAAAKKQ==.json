@@ -1,0 +1,132 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1680
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1683
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1412
+    },
+    "3:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2606
+    }
+  },
+  "questIDLow:4": 2601,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 12735,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§c§l§6§e§6§lЛиния сборки цепей",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Все это вам понадобится для создания 4 лицензий CAL, которых хватит на одну серию цепей. Если вам нужен только один (например, для микропроцессоров), просто разделите на 4.\n\nПредполагая, что вы получили необходимые отпечатки на вкладке LuV, теперь вы можете создавать CAL для серии кристаллических процессоров. Мы начнем с 4, так как вам понадобится по одному на цепь, отпечаток не удаляется. И да, это означает, что вам понадобится один для каждого типа схемы, которую вы хотите создать с помощью CAL.\n\nКак сборочная линия, она обычно работает как обычная, с разными предметами в каждой шине, но поскольку на каждую CAL приходится только один предмет, ее гораздо проще использовать, а рецепт к тому же дешевле.\n\nCAL использует «обертки» для создания 16 схем одновременно (кроме схем ULV и LV), экономя ваше время, ЕС и паяльный сплав (или Indalloy). Вы делаете обертки в ассемблере из 16 предметов и полиэтилена.\n\n§3Кстати, вы можете заменить люки и шины на более качественные, но вам все равно придется соблюдать порядок ингредиентов. Также CAL обеспечивает идеальный разгон."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockcasings3",
+          "Count:3": 76,
+          "Damage:2": 10,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockcasings2",
+          "Count:3": 28,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "IC2:blockAlloyGlass",
+          "Count:3": 56,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.blockcasings2",
+          "Count:3": 52,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 24,
+          "Damage:2": 70,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 4,
+          "Damage:2": 80,
+          "OreDict:8": ""
+        },
+        "6:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 4,
+          "Damage:2": 51,
+          "OreDict:8": ""
+        },
+        "7:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 4,
+          "Damage:2": 90,
+          "OreDict:8": ""
+        },
+        "8:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 4,
+          "Damage:2": 46,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 4,
+          "Damage:2": 12735,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

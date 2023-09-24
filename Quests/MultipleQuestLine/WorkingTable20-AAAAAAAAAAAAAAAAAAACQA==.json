@@ -1,0 +1,202 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 586
+    }
+  },
+  "questIDLow:4": 576,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Forestry:factory2",
+        "Count:3": 1,
+        "Damage:2": 2,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Рабочая таблица 2.0",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Ручной верстак, запоминающий девять последних использованных рецептов. Щелкните левой кнопкой мыши по одному из рецептов, показанных справа, чтобы автоматически заполнить сетку крафта. Щелкните правой кнопкой мыши, чтобы заблокировать сохраненный рецепт и предотвратить его смещение новым рецептом.\n\nРесурсы должны поступать во внутренний инвентарь. Матрица крафта — это всего лишь визуальное представление.\n\nРабочий стол для лесного хозяйства очень полезен и может уменьшить утомительность многих распространенных работ, поскольку вы можете перетаскивать мышью ряд предметов, и он будет использовать инструменты из своего собственного инвентаря для продолжения работы.\n\nКонкретно:\nСоздание \u003cПредмета X\u003e с помощью \u003cВедра Y\u003e. Поместите все ингредиенты в таблицу, и, если рецепт выбран, щелкните результат с помощью Shift, чтобы создать их все одновременно (пока они не закончатся).\nПриготовление пресной воды для Пэм — то же, что и выше, но без второго пункта.\nИзготовление глиняных кирпичей. Деревянная форма автоматически используется повторно.\nСоздание чего-либо, для чего используется инструмент. Также автоматически используется повторно, но при этом потребляется долговечность.\n\n§3Для получения дополнительных лесных квестов перейдите на специальную вкладку."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:bookshelf",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "minecraft:crafting_table",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "minecraft:chest",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 4,
+          "Damage:2": 27032,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "allowCraftedFromStatistics:1": 0,
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "allowCraft:1": 1,
+      "allowAnvil:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Forestry:factory2",
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:crafting"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 4,
+          "Damage:2": 11304,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "Forestry:sapling",
+          "Count:3": 4,
+          "tag:10": {
+            "IsAnalyzed:4": 0,
+            "Genome:10": {
+              "Chromosomes:9": {
+                "0:10": {
+                  "UID1:8": "forestry.treeOak",
+                  "UID0:8": "forestry.treeOak",
+                  "Slot:4": 0
+                },
+                "1:10": {
+                  "UID1:8": "forestry.growthLightlevel",
+                  "UID0:8": "forestry.growthLightlevel",
+                  "Slot:4": 1
+                },
+                "2:10": {
+                  "UID1:8": "forestry.heightSmall",
+                  "UID0:8": "forestry.heightSmall",
+                  "Slot:4": 2
+                },
+                "3:10": {
+                  "UID1:8": "forestry.saplingsAverage",
+                  "UID0:8": "forestry.saplingsAverage",
+                  "Slot:4": 3
+                },
+                "4:10": {
+                  "UID1:8": "forestry.fruitApple",
+                  "UID0:8": "forestry.fruitApple",
+                  "Slot:4": 4
+                },
+                "5:10": {
+                  "UID1:8": "forestry.yieldLowest",
+                  "UID0:8": "forestry.yieldLowest",
+                  "Slot:4": 5
+                },
+                "6:10": {
+                  "UID1:8": "forestry.plantTypeNone",
+                  "UID0:8": "forestry.plantTypeNone",
+                  "Slot:4": 6
+                },
+                "7:10": {
+                  "UID1:8": "forestry.sappinessLowest",
+                  "UID0:8": "forestry.sappinessLowest",
+                  "Slot:4": 7
+                },
+                "8:10": {
+                  "UID1:8": "forestry.territoryAverage",
+                  "UID0:8": "forestry.territoryAverage",
+                  "Slot:4": 8
+                },
+                "9:10": {
+                  "UID1:8": "forestry.leavesNone",
+                  "UID0:8": "forestry.leavesNone",
+                  "Slot:4": 9
+                },
+                "10:10": {
+                  "UID1:8": "forestry.maturationFaster",
+                  "UID0:8": "forestry.maturationFaster",
+                  "Slot:4": 10
+                },
+                "11:10": {
+                  "UID1:8": "forestry.i1d",
+                  "UID0:8": "forestry.i1d",
+                  "Slot:4": 11
+                },
+                "12:10": {
+                  "UID1:8": "forestry.fireproofFalse",
+                  "UID0:8": "forestry.fireproofFalse",
+                  "Slot:4": 12
+                }
+              }
+            }
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnician",
+          "Count:3": 15,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinForestry",
+          "Count:3": 15,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

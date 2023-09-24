@@ -1,0 +1,110 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1292
+    }
+  },
+  "questIDLow:4": 1298,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "appliedenergistics2:tile.BlockSecurity",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Беспроводная настройка",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Позволяет вам настроить, какие пользователи и какие разрешения имеют пользователи в системе ME. Своим существованием он обеспечивает соблюдение разрешений на использование системы.\n\nСистема безопасности не предотвращает деструктивное вмешательство, отключение кабелей/машин или поломку накопителей. Если вам необходимо защитить свою систему от физического вандализма, вам понадобится другая форма физической безопасности. Этот блок обеспечивает безопасность сетевого уровня.\n\nИгрок, разместивший МЕ-терминал безопасности, имеет полный контроль над сетью и не может лишить себя каких-либо прав. Добавляя пустую биометрическую карту, вы определяете поведение по умолчанию для каждого игрока, у которого нет зарегистрированной биометрической карты.\n\nПомимо безопасности на программном уровне, вы можете подключить беспроводной терминал к сети и получить к нему беспроводной доступ.\n\nЕсли он есть в вашей основной сети, вашим подсетям он также может понадобиться для доступа к вашей основной сети, но это не всегда так, в зависимости от того, как вы его настроили.\n\n\nБеспроводной доступ к точке беспроводного доступа ME через беспроводной терминал. Дальность действия и энергопотребление определяются на основе количества усилителей беспроводной связи, установленных в точке беспроводного доступа ME. В сети может быть любое количество точек беспроводного доступа ME с любым количеством беспроводных усилителей в каждой, что позволяет оптимизировать энергопотребление и радиус действия путем изменения настроек."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "appliedenergistics2:tile.BlockSecurity",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "appliedenergistics2:tile.BlockWireless",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial",
+          "Count:3": 8,
+          "Damage:2": 42,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "appliedenergistics2:item.ItemMultiPart",
+          "Count:3": 32,
+          "Damage:2": 140,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "appliedenergistics2:item.ItemMultiPart",
+          "Count:3": 16,
+          "Damage:2": 16,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 37,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {}
+    }
+  }
+}

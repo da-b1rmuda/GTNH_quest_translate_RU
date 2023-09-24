@@ -1,0 +1,81 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1637
+    }
+  },
+  "questIDLow:4": 1638,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:flowing_water",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Электролиз воды",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Теперь давайте автоматизируем электролиз воды на кислород и водород. Вам понадобится водород для тонн вещей, включая десульфурацию, получение вольфрама и производство азотной кислоты. Кислород также полезен, и я уверен, вы заметили это при производстве стали.\n\nКак это настроить:\n\nПоместите электролизер и подключите его к воде и электричеству. Поместите 2 супертанка рядом. Установите электролизер для производства газообразного водорода и кислорода. Используйте обычные трубы для жидкости GT для вывода газообразного водорода в один супербак. Теперь это ваше хранилище водорода. Теперь подключите интерфейсные трубы ко всем трем машинам.\n\nДля электролизера поместите в комплект запасщика предметы, чтобы хранить 2 пустые ячейки. Также поместите экстрактор для извлечения клеток кислорода.\n\nТеперь в качестве хранилища кислорода поместите набор микросхем-ответчиков для приема кислородных ячеек и набор экстракторов для извлечения пустых ячеек.\n\nТеперь поместите несколько пустых ячеек в сундук для хранения по умолчанию и не забудьте разместить там вещателя."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 371,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "ProjRed|Transportation:projectred.transportation.routingchip",
+          "Count:3": 2,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "ProjRed|Transportation:projectred.transportation.routingchip",
+          "Count:3": 1,
+          "Damage:2": 6,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "ProjRed|Transportation:projectred.transportation.routingchip",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "ProjRed|Transportation:projectred.transportation.pipe",
+          "Count:3": 3,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

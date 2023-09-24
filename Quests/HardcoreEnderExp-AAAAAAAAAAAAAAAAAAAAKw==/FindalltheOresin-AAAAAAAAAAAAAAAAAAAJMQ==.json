@@ -1,0 +1,151 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2356
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2358
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2359
+    },
+    "3:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2360
+    }
+  },
+  "questIDLow:4": 2353,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "HardcoreEnderExpansion:instability_orb_ore",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "OR",
+      "repeat_relative:1": 1,
+"name:8": "Найдите все руды в конце.",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Конечная порошковая руда:\nГенерируется в Крае между Камнями Края на каждом уровне высоты. Когда руда добывается киркой любого типа, из нее выпадает один или два куска конечного порошка.\n\nЭндиевая руда:\nРедкая руда, которая начинает появляться возле башен подземелий и становится все более распространенной по мере вашего путешествия.\n\nМагматическая руда:\nГенерируется в Конце в Пылающих горах, а иногда и в Краевых камнях. Этот блок испускает частицы лавы, но не наносит урон игроку. Когда руда добывается железной киркой или лучше, из нее выпадает один магматический камень.\n\nПримечание. Чары «Удача» не действуют на магматическую руду. Однако чары «Шелковое прикосновение» работают с этим блоком. Вы можете получить лучшую производительность, раздавив блок машинами.\n\nНестабильная руда:\nСоздается в конце на островах биома. Когда руда добывается с помощью усовершенствованной кирки, из нее с вероятностью 40% выпадет одна сфера нестабильности, в противном случае она сломается, не предоставив никаких предметов.\n\nПримечание. Чары «Удача» увеличивают вероятность получения сферы нестабильности на 4% за каждый уровень чар.\n\nЗвездная пыль:\nСоздается в конце на островах биома. Когда руда добывается с помощью усовершенствованной кирки, из нее может выпасть 0–4 куска звездной пыли. Несмотря на то, что эта руда собирается в кластеры, два рудных блока из одного кластера могут образовываться отдельно друг от друга, что делает руду звездной пыли редким ресурсом, требующим тщательного исследования и добычи.\n\nБлок руды звездной пыли имеет разные текстуры по бокам.\n\nСфалерит: его можно мацерировать для измельчения обычного сфалерита,"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "HardcoreEnderExpansion:end_powder",
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "HardcoreEnderExpansion:igneous_rock",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "HardcoreEnderExpansion:instability_orb",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "HardcoreEnderExpansion:stardust",
+          "Count:3": 32,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "HardcoreEnderExpansion:endium_ore",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "5:10": {
+          "id:8": "HardcoreEnderExpansion:sphalerite",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "HardcoreEnderExpansion:sphalerite",
+          "Count:3": 32,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "HardcoreEnderExpansion:essence",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 57,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinAdventureII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinSurvivorII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "HardcoreEnderExpansion:knowledge_note",
+          "Count:3": 1,
+          "tag:10": {
+            "pts:1": 40
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

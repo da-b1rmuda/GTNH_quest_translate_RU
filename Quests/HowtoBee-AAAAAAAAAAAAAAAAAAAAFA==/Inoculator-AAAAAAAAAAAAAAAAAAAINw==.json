@@ -1,0 +1,76 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2098
+    }
+  },
+  "questIDLow:4": 2103,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Genetics:machine",
+        "Count:3": 1,
+        "Damage:2": 3,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Инокулятор",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Последний этап – прививка. В настоящее время единственной машиной, способной вводить гены, является инокулятор. При этом используется бактериальный вектор, созданный путем инкубации бактерий и огненного порошка, для переноса гена в организмы.\n\nМожно инъецировать только молодую стадию организмов, а именно личинки (пчелы), пыльцу (деревья и цветы) и гусеницы (бабочки). Личинки пчел можно превратить в трутней путем инкубации с жидкой питательной средой."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "Genetics:machine",
+          "Count:3": 1,
+          "Damage:2": 3,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "BinnieCore:containerCylinder",
+          "Count:3": 8,
+          "Damage:2": 772,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 26,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

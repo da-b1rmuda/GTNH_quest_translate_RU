@@ -1,0 +1,57 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 0
+    }
+  },
+  "questIDLow:4": 1501,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "UNLOCKED",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "adventurebackpack:blockCampFire",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§1§lСоздайте резервную копию своих данных...",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "В комплект входит мод AromaBackup (AB) для резервного копирования вашего мира.\nВы можете настроить путь сохранения, частоту и количество резервных копий в настройках в «config\\aroma1997».\nВы также можете использовать другой мод, например FTB Utilities, или даже внешнюю программу.\nНе используйте несколько резервных модов одновременно — это просто потратит впустую мощность вашего процессора и место для хранения данных.\n\nЕсли вам нужно восстановить резервную копию, файлы из AB находятся в папке резервных копий в каталоге экземпляра, а не в общем каталоге сохранения.\n\nПомните, что моды JourneyMap и Thaumcraft Node Tracker хранят информацию помимо той, которую резервирует большинство решений, поэтому сделайте резервную копию папок travelmap и tcnodetracker самостоятельно.\n\nДанные Thaumcraft немного содержат ошибки, теряются данные отсканированных аспектов и данные Thaumonomicon, поэтому рассмотрите возможность их резервного копирования. Файл находится по адресу saves\\\u003cworldname\u003e\\playerdata\\\u003cnameofplayer\u003e.thaum.\n\nЕсли вы перейдете на другой диск или компьютер, не забудьте перенести все резервные копии файлов, а не только общую папку."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnician",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

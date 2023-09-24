@@ -1,0 +1,96 @@
+{
+  "questIDHigh:4": 9150468808087585802,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -7145832986633813492,
+      "questIDLow:4": -8869557855426175810
+    }
+  },
+  "questIDLow:4": -6939821207402967394,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 1000,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Подожди, ты уверен?",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Итак, по какой-то причине вы решили выбрать вариант EBF.\n\nЧто ж, готовьтесь к технологической линии.\n\nСначала вам нужно прореагировать ториевую пыль с плавиковой кислотой и восемью ведрами азотной кислоты. Надеюсь, у вас есть установка для азотной кислоты.\n\nЗатем проведите реакцию нитрата тория с гидроксидом натрия, чтобы получить гидроксид тория. Затем проведите реакцию с еще большим количеством плавиковой кислоты, чтобы получить тетрафторид тория.\n\nЗатем закачайте его в центрифугу, чтобы отделить обычный торий от тория 232. К сожалению, он все еще находится в жидкой форме, поэтому вам придется обработать его хлоридом цинка и кальцием.\n\nЗатем, наконец, снова используйте доменную печь для слитка сплава Zn-Th, чтобы отделить цинк от тория 232, получить пыль тория 232 и даже вернуть цинк в жидкую форму.\n\nНадеюсь, вам понравилась линия обработки Thorium 232 EBF edition."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "bartworks:gt.bwMetaGeneratedingot",
+          "Count:3": 1,
+          "Damage:2": 10053,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "bartworks:gt.bwMetaGenerateddust",
+          "Count:3": 1,
+          "Damage:2": 30,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "bartworks:gt.bwMetaGeneratedcell",
+          "Count:3": 1,
+          "Damage:2": 10015,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "bartworks:gt.bwMetaGenerateddust",
+          "Count:3": 1,
+          "Damage:2": 10017,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "miscutils:itemCellThoriumTetrafluoride",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "bartworks:gt.bwMetaGeneratedcell",
+          "Count:3": 1,
+          "Damage:2": 10021,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  },
+  "rewards:9": {}
+}

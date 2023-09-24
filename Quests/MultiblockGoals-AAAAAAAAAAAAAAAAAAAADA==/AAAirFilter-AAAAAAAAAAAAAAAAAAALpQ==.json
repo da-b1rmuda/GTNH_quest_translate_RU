@@ -1,0 +1,200 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 88
+    }
+  },
+  "questIDLow:4": 2981,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 1,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 12020,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§6§6§6§l§r§6§l§5§l§o§l§r§6§A§l§A§6§lВоздушный фильтр",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Электрический воздушный фильтр\n\nЭтот замечательный мультиблок выпускается в 3 версиях: §9 §rT1 для LV, T2 для позднего HV и T3 для IV.\n\n§r§9§rИмеет 2 режима:\n\n§9§r- нормальный режим, при котором в рабочей зоне одновременно обрабатывается один кусок, по порядку, за цикл очистки загрязнений.\n- случайный режим, при котором очищаемый чанк выбирается случайным образом среди всех загрязненных чанков в рабочей зоне.\n§р\nДля переключения между режимами щелкните правой кнопкой мыши на контроллере с помощью отвертки.\n\n§9§rКонтроллер может изменять размер своей рабочей области с 1x1 на (2*уровень 1) x (2*уровень 1) блоков. Для этого нажмите правой кнопкой мыши отверткой на контроллере, подкрадываясь. Размер по умолчанию — это максимальная рабочая область.\n\n§r§9§rРасчёт удаления загрязнений равен (по умолчанию) 30 * бонусMultiTier * Люки глушителя * Эффективность турбины * Эффективность мультиблока * 2,5 ^ Эффективный уровень, где:\n\n- BonusMultiTier — это повышение, даваемое уровнем мультиблока. T1 составляет 1 (0%), T2 составляет 1,05 (5%) и T3 составляет 1,10 (10%).\n\n- Muffler Hatches - количество люков глушителя на мультиблоке (до 8)\n\n- Turbine Eff — это эффективность турбины, выбранной для работы мультисистемы. Он не запустится, если в контроллере нет турбины.\n\n- Multiblock Eff — это эффективность мультиблока (100% при отсутствии проблем с обслуживанием, -10% за каждую проблему)\n\n- Эффективный уровень - это эффективный уровень мульти: минимальный уровень между электрическим уровнем мульти и уровнем люков глушителя.\n\n§rОчистка загрязнений увеличивается на два (по умолчанию) при использовании абсорбционного фильтра. При добавлении во входную шину он будет потребляться и использоваться в течение 30 (по умолчанию) успешных циклов очистки от загрязнений. Если обрабатывается чанк без загрязнения, это не считается успешным, и мульти решает, что чанк не имеет загрязнения, если загрязнение ниже 10 тыс. гиббл (по умолчанию). После 30-го успешного цикла очистки от загрязнений выходная шина выдаст грязный абсорбционный фильтр.\n\nЧтобы узнать, присутствует ли абсорбционный фильтр и сколько осталось циклов, используйте портативный сканер на контроллере.\n\n§9§rЦикл загрязнения длится 10 секунд, а очистка осуществляется каждую секунду."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 12020,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "dreamcraft:gt.blockcasingsNH",
+          "Count:3": 8,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:gt.blockcasingsNH",
+          "Count:3": 13,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 71,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 81,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "3:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 3,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 90,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 8,
+          "Damage:2": 91,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "4:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 4,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 41,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "5:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 5,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "GT.ToolStats:10": {}
+          },
+          "Damage:2": 170,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 3,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.metaitem.01",
+          "Count:3": 1,
+          "Damage:2": 32764,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "dreamcraft:item.AdsorptionFilter",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnician",
+          "Count:3": 75,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

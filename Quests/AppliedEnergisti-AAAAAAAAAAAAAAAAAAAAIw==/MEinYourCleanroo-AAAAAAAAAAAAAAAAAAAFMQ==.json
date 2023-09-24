@@ -1,0 +1,106 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1298
+    }
+  },
+  "questIDLow:4": 1329,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "ae2stuff:Wireless",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Я в вашей чистой комнате",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Беспроводные разъемы представляют собой альтернативу квантовому сетевому мосту ближнего действия.\nСоединения двухточечные — нельзя соединить вместе более 2 блоков. Каждый блок будет использовать расстояние 10 * ln(расстояние^2 3) AE/t. Не работает в разных измерениях. Электроэнергию необходимо подавать только с одной стороны. Через соединение можно передавать до 32 каналов. Может подключаться напрямую к плотным кабелям. Сам беспроводной разъем не использует никаких каналов."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "ae2stuff:WirelessKit",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "ae2stuff:Wireless",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial",
+          "Count:3": 64,
+          "Damage:2": 10,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial",
+          "Count:3": 64,
+          "Damage:2": 11,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial",
+          "Count:3": 64,
+          "Damage:2": 12,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 37,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnicianII",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 493
+    }
+  },
+  "questIDLow:4": 2346,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:fish",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§9§8§7§6§5§3§lПриручите оцелота, чтобы завести друга",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Когда у вас будут необходимые материалы, вам нужно будет найти оцелота, которого можно приручить.\n\nОцелотов можно найти в биомах джунглей.\n\nЕсли у вас возникли проблемы с поиском оцелота, вы всегда можете вызвать оцелота с помощью яйца призывания.\n\nОцелота можно приручить, дав ему сырую рыбу. Поэтому добавьте сырую рыбу в свой инвентарь и выберите сырую рыбу на панели быстрого доступа.\n\nКак и в ванильном Minecraft, прирученный оцелот превращается в кошку. Кошка будет отпугивать лианы.\n\n§3СОВЕТ: Пытаясь приручить оцелота, убедитесь, что вы находитесь на большом пространстве, чтобы у оцелота было много места для перемещения. Если вы находитесь в слишком маленьком пространстве, вы не сможете приручить оцелота.\n\nДалее, держа сырую рыбу, не двигайтесь. Если вы двинетесь, вы спугнете оцелота. Если вы будете вести себя очень тихо, оцелот в конце концов заметит рыбу в вашей руке и начнет приближаться к вам."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:fishing_rod",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:fence",
+          "Count:3": 32,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "minecraft:fish",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "minecraft:fence",
+          "Count:3": 32,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "minecraft:fish",
+          "Count:3": 32,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 2,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinSurvivor",
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

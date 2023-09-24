@@ -1,0 +1,111 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 36
+    }
+  },
+  "questIDLow:4": 2160,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "CarpentersBlocks:blockCarpentersBlock",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Плотничьи блоки",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Еще одна пользовательская система блоков! Блоки Карпентера создаются пустыми и помещаются в мир, а затем к ним применяются простые текстуры блоков. Блоки не должны быть плиточными объектами, поэтому блоки ботаники с ними работать не будут, но подойдут камни GT, такие как красный гранит, и любой цветной глинистый или ванильный стеклянный блок. Некоторые типы стекол Chisel подойдут, а также блоки Ztones и Tinted Glass.\n\nДля гаражных ворот требуется блок сверху, с которого можно свисать «вниз», но длина может быть практически любой. Сигнал красного камня на любом блоке рядом с блоками гаражных ворот откроет или закроет дверь. Открытие/закрытие будет распространяться на несколько вертикальных дверей, поэтому вы можете настроить неквадратные двери. Если подкрасться и щелкнуть правой кнопкой мыши пустой рукой, полярность двери изменится.\n\nНажимные пластины активируются только игроком, что делает их идеальными для дверей на вашу базу.\n\nЧтобы разместить люки, необходимо щелкнуть сбоку блока. Они могут пригодиться для защиты вас от побочных продуктов тигля.\n \nВозможно гораздо больше форм блоков, проверьте NEI на предмет «Carpenter's», чтобы увидеть варианты.\n\nДолото позволяет вам долбить блоки, прикрепленные к столярному блоку.\n\nHammer позволяет выполнять различные функции.\n\nМолоток в дверь - меняет тип формы двери.\nСкрытный молоток по двери — поведение меняется с железной на деревянную дверь.\nSneak Hammer на рычаге — меняет полярность (в каком направлении вкл/выкл)"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "CarpentersBlocks:blockCarpentersBlock",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "CarpentersBlocks:blockCarpentersButton",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "CarpentersBlocks:blockCarpentersLever",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "CarpentersBlocks:blockCarpentersPressurePlate",
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "CarpentersBlocks:blockCarpentersGarageDoor",
+          "Count:3": 10,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "CarpentersBlocks:itemCarpentersHammer",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "CarpentersBlocks:itemCarpentersChisel",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

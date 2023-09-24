@@ -1,0 +1,90 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2149
+    }
+  },
+  "questIDLow:4": 2150,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "AFSU:AFSU",
+        "Count:3": 1,
+        "tag:10": {
+          "energy:4": 0
+        },
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Один МИЛЛИАРД ЕС",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Если вам нужен стационарный аккумулятор, вы можете сделать AFSU, способный хранить до 1 миллиарда ЭУ и заряжать предметы. Подобрать его можно гаечным ключом, но вы потеряете процент сохраненного ЕС. Убедитесь, что вы щелкаете правой кнопкой мыши, а не левой кнопкой мыши. Щелчок левой кнопкой мыши приведет к потере всех сохраненных EU.\n\nВ качестве альтернативы, если вы можете себе это позволить, попробуйте GT Energy Buffers. Они дороже и не могут заряжать предметы, но хранят больше, не теряют ЕС и могут быть настроены на ток 1-16А. Подробности смотрите на вкладке GT.\n\n§3Очевидно, они могут потреблять бесконечные амперы, поэтому, возможно, используйте диод или что-то еще, если вам нравится, чтобы питание было включено."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "AFSU:ALC",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "AFSU:AFSU",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "IC2:itemBatLamaCrystal",
+          "Count:3": 4,
+          "Damage:2": 26,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

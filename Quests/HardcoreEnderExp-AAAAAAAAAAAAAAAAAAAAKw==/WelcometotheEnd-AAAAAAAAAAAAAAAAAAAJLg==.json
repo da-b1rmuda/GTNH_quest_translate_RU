@@ -1,0 +1,115 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 986
+    }
+  },
+  "questIDLow:4": 2350,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "HardcoreEnderExpansion:end_powder_ore",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Добро пожаловать в Конец!",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Добро пожаловать в Конец! И что еще более важно, Hardcore Ender Expansion.\n\nЕсли вы уже сражались с Эндер Драконом, вы заметили, что сама битва была гораздо более сложной, чем обычно. Помимо того, что большая часть острова будет разрушена, но не волнуйтесь, здесь есть множество конечных сгустков, из которых вы можете собрать руду или конечный камень.\n\nВо-первых, вам нужно собрать немного порошка, который является ключевым катализатором большей части HEE. Также настоятельно рекомендуется использовать любые средства полета.\n\nПодсказка: нажмите клавишу P (если вы не отбросите ее назад), чтобы получить список ключей с информацией о вещах, связанных с HEE. Просмотрев его, вы поймете, что вам нужны знания, чтобы разблокировать страницы. Глядя на блоки, предметы или определенные вещи, вы также получите знания. Использование записок знаний также принесет вам очки знаний. Вот некоторые из них, с которых вы можете начать. Удачи!\n\n§3Если хотите, вы также можете поискать в Дневнике искателя приключений некоторые сведения.\n\n§3PS: Удерживайте клавишу Shift и ударьте яйцо ванильным мечом, чтобы оно упало.\n\n§4PPS: В Конце идет невидимый дождь, прикройте своих шахтеров, а затем жалуйтесь на раздоры."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "minecraft:end_stone",
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "HardcoreEnderExpansion:end_powder",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "HardcoreEnderExpansion:end_powder",
+          "Count:3": 8,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "HardcoreEnderExpansion:enderman_head",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 57,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinAdventureII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "dreamcraft:item.CoinSurvivorII",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "HardcoreEnderExpansion:knowledge_note",
+          "Count:3": 1,
+          "tag:10": {
+            "pts:1": 40
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

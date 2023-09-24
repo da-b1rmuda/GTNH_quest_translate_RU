@@ -1,0 +1,80 @@
+{
+  "questIDHigh:4": 1099540675571499978,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -2396217196736196889,
+      "questIDLow:4": -8084303837458271711
+    },
+    "1:10": {
+      "questIDHigh:4": 934917285194189830,
+      "questIDLow:4": -4721119019196807237
+    },
+    "2:10": {
+      "questIDHigh:4": 4807853113064639940,
+      "questIDLow:4": -5802810217373252190
+    }
+  },
+  "questIDLow:4": -7154632998014096877,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "miscutils:itemHeavyPlateAdvancedNitinol",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "Усовершенствованный ксенинол",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Именно здесь вы можете получить что-то полезное, помимо силы. Ксенон, который стал очень полезен в EBF благодаря замене благородных газов в его рецептуре, и усовершенствованный нитинол? Если у вас еще нет настройки Quantum Anomaly, вы можете использовать ее. Кто знает, что будет в будущем?\n\nЭти рецепты представляют собой те же рецепты с соотношением 0,144, которые вы видели раньше, и, поскольку они относятся непосредственно к последнему шагу, они станут узким местом на пути к компактным установкам реактора. Стоит сосредоточиться на усовершенствованном нитиноле, предпоследнем рецепте, в котором вам понадобится 9,216 или 10 реакторов Mk3, чтобы в конце выдержать компакт из небесного вольфрама. Однако, если вы построите компакт здесь, вы можете подать 6 компактов, если все, что будет до этого, будет достаточно быстрым."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "miscutils:itemCellPlasmaXenon",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "miscutils:itemCellPlasmaAdvancedNitinol",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

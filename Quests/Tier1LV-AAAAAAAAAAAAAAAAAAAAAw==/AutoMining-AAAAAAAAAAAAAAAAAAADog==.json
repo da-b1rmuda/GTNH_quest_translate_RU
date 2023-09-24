@@ -1,0 +1,88 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 530
+    }
+  },
+  "questIDLow:4": 930,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.blockmachines",
+        "Count:3": 1,
+        "Damage:2": 679,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§5§lАвтомайнинг",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Автоматический майнинг на уровне LV? Ух ты! Эта изящная машина будет собирать для вас руду, что может быть полезно, особенно в Пустоте, так как она не разозлит свинолюдей.\n\nПоместите до двух стопок горнодобывающих труб в правые слоты. Каждая труба может пройти 1 блок и позволить шахтеру выкопать еще 1 блок. Если ваш уровень Y выше 64, возможно, вам придется добавить больше.\n\nЭтой машине для работы нужно всего 8 ЭЭ/т, поэтому низковольтные батареи в батбаффе работают нормально, если вы не хотите делать еще один генератор.\n\nШахтер ищет руду в рабочей зоне размером 17x17 блоков (регулируется с помощью отвертки) и получает бонус удачи 1-го уровня! Отлично подходит для сбора дополнительных мелких руд!\n\nНе забудьте прикрыть это! Это машины класса GT, поэтому не забудьте защитить их (и их источники энергии!) от дождя со всех сторон. И установите путевую точку с помощью JourneyMap, чтобы не забыть, где вы ее разместили, если поместите ее далеко! Вам придется загрузить майнер частями, если вы хотите, чтобы он продолжал работать, когда вас нет рядом."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.blockmachines",
+          "Count:3": 1,
+          "Damage:2": 679,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "IC2:blockMiningPipe",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "dreamcraft:item.CoinTechnician",
+          "Count:3": 20,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

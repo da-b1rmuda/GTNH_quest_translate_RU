@@ -1,0 +1,128 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 105
+    }
+  },
+  "questIDLow:4": 2047,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.integrated_circuit",
+        "Count:3": 1,
+        "Damage:2": 1,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+"name:8": "§5§lПрограммирование цепей",
+      "isGlobal:1": 0,
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+"desc:8": "Некоторые машины имеют очень и очень большое количество рецептов. Чтобы избежать конфликтов, во многих рецептах запрограммированы схемы, гарантирующие использование правильного рецепта. Эти запрограммированные схемы не используются.\n\nВ этом модпаке все одноблочные машины GT теперь имеют значок в графическом интерфейсе в правом нижнем углу, который представляет собой призрачную схему. Нажмите на нее или пролистните, чтобы выбрать нужный вам номер. Если вы это сделаете, вам не придется вставлять физическую схему. Это будет ваш основной вариант для всех одноблочных машин. Эта опция теперь доступна и для входных шин мультиблоков, которыми вы воспользуетесь значительно позже.\n\nВ модпаке есть несколько мест, где вам все еще нужны физические схемы. Вы можете превратить цепь низкого напряжения в запрограммированную схему в сетке крафта, а затем запрограммировать ее различными способами:\n\n1) Найдите в NEI правильный рецепт крафта с помощью отвертки и используйте его.\n\n2) Щелкните правой кнопкой мыши, удерживая запрограммированную схему, чтобы открыть простое меню. Однако вам все равно нужно иметь в инвентаре хотя бы отвертку, иначе она не сработает. Со временем вы также можете сделать электрическую отвертку.\n\n3) Используйте программатор BartWorks. Он доступен только в MV, но не использует никакой долговечности и работает в ЕС.\n\n4) Используйте блок GT Circuit Programmer. Он не портативен и доступен только в MV, но позволяет автоматизировать.\n\n\nЗадания в этом квесте — это лишь демонстрация того, какие существуют схемы программирования. Вы можете просто нажать на галочку, как только поймете, как работают запрограммированные схемы."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.integrated_circuit",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "bartworks:gt.BWCircuitProgrammer",
+          "Count:3": 1,
+          "tag:10": {
+            "charge:6": 10000.0
+          },
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "miscutils:blockCircuitProgrammer",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "3:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 3,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.integrated_circuit",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "4:10": {
+      "index:3": 4,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 1,
+          "Damage:2": 4,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}
